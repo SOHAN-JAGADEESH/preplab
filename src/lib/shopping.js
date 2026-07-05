@@ -1,5 +1,5 @@
 import { byId, DAYS } from './recipes'
-import { fmtNum } from './format'
+import { fmtNum, roundQty } from './format'
 import ingredientMap from '../data/ingredientMap.json'
 
 /* ----------------------------------------------------------------
@@ -12,6 +12,9 @@ import ingredientMap from '../data/ingredientMap.json'
    the book. No fragile runtime string parsing.
 ----------------------------------------------------------------- */
 const { categories, catalog, map } = ingredientMap
+
+// things that come out of a tap don't belong on a shopping list
+const NOT_PURCHASED = new Set(['Water'])
 
 export const CATEGORY_ORDER = categories
 export const CATEGORY_EMOJI = {
@@ -45,11 +48,13 @@ export function buildShopping(plan) {
   Object.entries(servingsByRecipe).forEach(([id, s]) => {
     const r = byId[id]
     if (!r) return
-    const f = Math.ceil(s / r.servings) // you can only cook whole batches
+    // whole batches only — scaled so every serving is genuinely 900 kcal
+    const f = Math.ceil(s / r.servings) * (r.batchScale || 1)
     r.ingredientGroups.forEach((g) => g.items.forEach((raw) => {
       const entries = map[raw]
       if (!entries) return
       entries.forEach((e) => {
+        if (NOT_PURCHASED.has(e.name)) return
         const info = catalog[e.name]
         if (!agg[e.name]) {
           agg[e.name] = {
@@ -70,15 +75,22 @@ export function buildShopping(plan) {
 export function qtyDisplay(item) {
   const parts = []
   const fam = item.fams
-  if (fam.mass) parts.push(fam.mass >= 1000 ? `${fmtNum(fam.mass / 1000)} kg` : `${fmtNum(fam.mass)} g`)
-  if (fam.vol) parts.push(fam.vol >= 1000 ? `${fmtNum(fam.vol / 1000)} L` : `${fmtNum(fam.vol)} ml`)
-  if (fam.spoon) parts.push(fam.spoon >= 3 ? `${fmtNum(fam.spoon / 3)} tbsp` : `${fmtNum(fam.spoon)} tsp`)
-  if (fam.cup) parts.push(`${fmtNum(fam.cup)} cup`)
-  if (fam.clove) parts.push(`${fmtNum(fam.clove)} clove`)
-  if (fam.slice) parts.push(`${fmtNum(fam.slice)} slice`)
-  if (fam.can) parts.push(`${fmtNum(fam.can)} can`)
-  if (fam.sheet) parts.push(`${fmtNum(fam.sheet)} sheet`)
-  if (fam.count) parts.push(`×${fmtNum(fam.count)}`)
+  if (fam.mass) {
+    const g = roundQty(fam.mass, 'g')
+    parts.push(g >= 1000 ? `${fmtNum(roundQty(g / 1000, 'kg'))} kg` : `${fmtNum(g)} g`)
+  }
+  if (fam.vol) {
+    const ml = roundQty(fam.vol, 'ml')
+    parts.push(ml >= 1000 ? `${fmtNum(roundQty(ml / 1000, 'l'))} L` : `${fmtNum(ml)} ml`)
+  }
+  if (fam.spoon) parts.push(fam.spoon >= 3 ? `${fmtNum(roundQty(fam.spoon / 3, 'tbsp'))} tbsp` : `${fmtNum(roundQty(fam.spoon, 'tsp'))} tsp`)
+  if (fam.cup) parts.push(`${fmtNum(roundQty(fam.cup, 'cup'))} cup`)
+  // discrete things you buy whole — always round up
+  if (fam.clove) parts.push(`${Math.ceil(fam.clove)} clove`)
+  if (fam.slice) parts.push(`${Math.ceil(fam.slice)} slice`)
+  if (fam.can) parts.push(`${Math.ceil(fam.can)} can`)
+  if (fam.sheet) parts.push(`${Math.ceil(fam.sheet)} sheet`)
+  if (fam.count) parts.push(`×${Math.ceil(fam.count)}`)
   return parts.join(' + ')
 }
 

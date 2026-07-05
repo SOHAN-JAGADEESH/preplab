@@ -30,8 +30,8 @@ export default function LibraryView({ onOpen, onPlan }) {
     const s = filters.sort
     if (s === 'protein') l.sort((a, b) => b.protein - a.protein)
     else if (s === 'proteinPct') l.sort((a, b) => b.proteinPct - a.proteinPct)
-    else if (s === 'calLow') l.sort((a, b) => a.calories - b.calories)
-    else if (s === 'calHigh') l.sort((a, b) => b.calories - a.calories)
+    else if (s === 'calLow') l.sort((a, b) => a.baseCalories - b.baseCalories)
+    else if (s === 'calHigh') l.sort((a, b) => b.baseCalories - a.baseCalories)
     else if (s === 'quick') l.sort((a, b) => a.ingredientCount - b.ingredientCount)
     return l
   }, [filters, goals, isFav, exclude])

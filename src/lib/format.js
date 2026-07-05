@@ -14,12 +14,35 @@ export function parseNum(s) {
   return parseFloat(s)
 }
 
+// round a scaled quantity to a kitchen-sensible step for its unit
+const step = (v, s) => Math.round(v / s) * s
+export function roundQty(v, unit) {
+  unit = (unit || '').toLowerCase()
+  if (unit === 'g' || unit === 'ml') {
+    if (v >= 100) return step(v, 10)
+    if (v >= 20) return step(v, 5)
+    if (v >= 3) return Math.round(v)
+    return step(v, 0.5)
+  }
+  if (unit === 'kg' || unit === 'l') return step(v, 0.1)
+  if (unit === 'oz') return step(v, 0.5)
+  if (['tsp', 'tbsp', 'tbs'].includes(unit)) {
+    if (v >= 8) return Math.round(v)
+    if (v >= 3) return step(v, 0.5)
+    return step(v, 0.25)
+  }
+  if (unit === 'cup' || unit === 'cups') return step(v, 0.25)
+  // counts, cloves, slices, cans, sheets, blocks…
+  return step(v, 0.5)
+}
+
 // scale leading number + numbers inside "(n unit)" parentheticals
 export function scaleText(text, f) {
   if (f === 1) return text
-  let out = text.replace(/^(\d+\s*\/\s*\d+|\d+(?:\.\d+)?)/, (m) => fmtNum(parseNum(m) * f))
+  const lead = new RegExp('^(\\d+\\s*\\/\\s*\\d+|\\d+(?:\\.\\d+)?)(\\s*)(' + UNITS + ')?\\b', 'i')
+  let out = text.replace(lead, (m, num, sp, unit) => fmtNum(roundQty(parseNum(num) * f, unit)) + sp + (unit || ''))
   out = out.replace(new RegExp('\\((\\d+(?:\\.\\d+)?)(\\s*)(' + UNITS + ')\\)', 'ig'),
-    (m, num, sp, unit) => '(' + fmtNum(parseFloat(num) * f) + sp + unit + ')')
+    (m, num, sp, unit) => '(' + fmtNum(roundQty(parseFloat(num) * f, unit)) + sp + unit + ')')
   return out
 }
 

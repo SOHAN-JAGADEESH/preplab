@@ -16,7 +16,8 @@ export default function RecipeModal({ recipeId, onClose, onPlan }) {
     return () => { document.removeEventListener('keydown', onKey); document.body.style.overflow = '' }
   }, [onClose])
 
-  const f = servings / r.servings
+  // batchScale bakes in the true-900kcal portion adjustment
+  const f = (servings / r.servings) * r.batchScale
   const scaled = f !== 1
   const fav = isFav(r.id)
   const toggleStep = (i) => setDone((d) => { const n = new Set(d); n.has(i) ? n.delete(i) : n.add(i); return n })
@@ -53,7 +54,7 @@ export default function RecipeModal({ recipeId, onClose, onPlan }) {
           </div>
 
           <div className="scaler">
-            <div className="scaler-label">Scale recipe · base makes <b>{r.servings}</b></div>
+            <div className="scaler-label">Scale recipe · base makes <b>{r.servings} × 900 kcal</b></div>
             <div className="stepper">
               <button onClick={() => setServings((s) => Math.max(1, s - 1))}>−</button>
               <span className="val">{servings}</span>

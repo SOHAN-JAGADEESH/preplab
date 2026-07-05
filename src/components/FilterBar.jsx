@@ -7,7 +7,7 @@ const D_EMOJI = { 'Mac n Cheese': '🧀', Bowls: '🥣', 'Fried Rice': '🍚', N
 
 const SORTS = [
   ['default', 'Featured'], ['protein', 'Most protein'], ['proteinPct', 'Highest protein %'],
-  ['calLow', 'Fewest calories'], ['calHigh', 'Most calories'], ['quick', 'Fewest ingredients'],
+  ['calLow', 'Lightest (as written)'], ['calHigh', 'Heaviest (as written)'], ['quick', 'Fewest ingredients'],
 ]
 
 export default function FilterBar({ filters, set, resultCount }) {
@@ -31,7 +31,7 @@ export default function FilterBar({ filters, set, resultCount }) {
   const active = filters.search || filters.protein.size || filters.dish.size || filters.flags.size
 
   const flagBtns = [
-    ['highProtein', '💪 50g+ protein'], ['lowCal', '🪶 Under 500 cal'],
+    ['highProtein', '💪 50g+ protein'], ['lowCal', '🪶 Light as written (≤500 cal)'],
     ['spicy', '🌶️ Spicy'], ['fav', '❤️ Favourites'],
   ]
   if (goals.set) flagBtns.push(['fitsGoals', '🎯 Fits my goals'])

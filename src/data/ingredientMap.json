@@ -44,6 +44,11 @@
    "rank": 6,
    "recipes": 1
   },
+  "Turkey Bacon": {
+   "category": "Meats",
+   "rank": 7,
+   "recipes": 1
+  },
   "Reduced Fat Butter": {
    "category": "Dairy",
    "rank": 0,
@@ -5292,7 +5297,7 @@
   ],
   "160g (5.7oz) 8 Slices Turkey Bacon": [
    {
-    "name": "Water",
+    "name": "Turkey Bacon",
     "family": "mass",
     "base": 160.0
    }
