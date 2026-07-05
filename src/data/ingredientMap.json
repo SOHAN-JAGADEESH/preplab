@@ -1,0 +1,9365 @@
+{
+ "categories": [
+  "Meats",
+  "Dairy",
+  "Produce",
+  "Spices & Seasonings",
+  "Pantry",
+  "Noodles & Pasta",
+  "Other"
+ ],
+ "catalog": {
+  "Chicken Breast": {
+   "category": "Meats",
+   "rank": 0,
+   "recipes": 48
+  },
+  "Topside / Top Sirloin Beef": {
+   "category": "Meats",
+   "rank": 1,
+   "recipes": 20
+  },
+  "Chicken Thighs": {
+   "category": "Meats",
+   "rank": 2,
+   "recipes": 17
+  },
+  "Lean Ground Beef": {
+   "category": "Meats",
+   "rank": 3,
+   "recipes": 10
+  },
+  "Beef (any cut)": {
+   "category": "Meats",
+   "rank": 4,
+   "recipes": 5
+  },
+  "Shrimp": {
+   "category": "Meats",
+   "rank": 5,
+   "recipes": 2
+  },
+  "Salmon": {
+   "category": "Meats",
+   "rank": 6,
+   "recipes": 1
+  },
+  "Reduced Fat Butter": {
+   "category": "Dairy",
+   "rank": 0,
+   "recipes": 75
+  },
+  "Cream Cheese": {
+   "category": "Dairy",
+   "rank": 1,
+   "recipes": 36
+  },
+  "Milk": {
+   "category": "Dairy",
+   "rank": 2,
+   "recipes": 30
+  },
+  "Light Mayo": {
+   "category": "Dairy",
+   "rank": 3,
+   "recipes": 29
+  },
+  "Yogurt": {
+   "category": "Dairy",
+   "rank": 4,
+   "recipes": 28
+  },
+  "Parmesan Cheese": {
+   "category": "Dairy",
+   "rank": 5,
+   "recipes": 23
+  },
+  "Low Fat Cheddar Cheese": {
+   "category": "Dairy",
+   "rank": 6,
+   "recipes": 16
+  },
+  "Mozzarella Cheese": {
+   "category": "Dairy",
+   "rank": 7,
+   "recipes": 11
+  },
+  "Eggs": {
+   "category": "Dairy",
+   "rank": 8,
+   "recipes": 11
+  },
+  "Cheese (other)": {
+   "category": "Dairy",
+   "rank": 9,
+   "recipes": 6
+  },
+  "Cottage Cheese": {
+   "category": "Dairy",
+   "rank": 10,
+   "recipes": 3
+  },
+  "Sour Cream": {
+   "category": "Dairy",
+   "rank": 11,
+   "recipes": 1
+  },
+  "Garlic": {
+   "category": "Produce",
+   "rank": 0,
+   "recipes": 82
+  },
+  "Fresh Parsley": {
+   "category": "Produce",
+   "rank": 1,
+   "recipes": 48
+  },
+  "Red Onion": {
+   "category": "Produce",
+   "rank": 2,
+   "recipes": 37
+  },
+  "White Onion": {
+   "category": "Produce",
+   "rank": 3,
+   "recipes": 34
+  },
+  "White Potatoes": {
+   "category": "Produce",
+   "rank": 4,
+   "recipes": 32
+  },
+  "Green Onion / Scallion": {
+   "category": "Produce",
+   "rank": 5,
+   "recipes": 27
+  },
+  "Bell Pepper": {
+   "category": "Produce",
+   "rank": 6,
+   "recipes": 26
+  },
+  "Lemon": {
+   "category": "Produce",
+   "rank": 7,
+   "recipes": 26
+  },
+  "Tomato": {
+   "category": "Produce",
+   "rank": 8,
+   "recipes": 26
+  },
+  "Coriander / Cilantro": {
+   "category": "Produce",
+   "rank": 9,
+   "recipes": 20
+  },
+  "Lime": {
+   "category": "Produce",
+   "rank": 10,
+   "recipes": 16
+  },
+  "Cucumber": {
+   "category": "Produce",
+   "rank": 11,
+   "recipes": 15
+  },
+  "Ginger": {
+   "category": "Produce",
+   "rank": 12,
+   "recipes": 14
+  },
+  "Carrot": {
+   "category": "Produce",
+   "rank": 13,
+   "recipes": 12
+  },
+  "Avocado": {
+   "category": "Produce",
+   "rank": 14,
+   "recipes": 5
+  },
+  "Fresh Chilli": {
+   "category": "Produce",
+   "rank": 15,
+   "recipes": 5
+  },
+  "Pickles / Gherkins": {
+   "category": "Produce",
+   "rank": 16,
+   "recipes": 4
+  },
+  "Spinach": {
+   "category": "Produce",
+   "rank": 17,
+   "recipes": 4
+  },
+  "Lettuce": {
+   "category": "Produce",
+   "rank": 18,
+   "recipes": 4
+  },
+  "Pineapple": {
+   "category": "Produce",
+   "rank": 19,
+   "recipes": 3
+  },
+  "Orange (juice/zest)": {
+   "category": "Produce",
+   "rank": 20,
+   "recipes": 3
+  },
+  "Cabbage": {
+   "category": "Produce",
+   "rank": 21,
+   "recipes": 3
+  },
+  "Bean Sprouts": {
+   "category": "Produce",
+   "rank": 22,
+   "recipes": 3
+  },
+  "Broccoli": {
+   "category": "Produce",
+   "rank": 23,
+   "recipes": 2
+  },
+  "Kimchi": {
+   "category": "Produce",
+   "rank": 24,
+   "recipes": 2
+  },
+  "Corn": {
+   "category": "Produce",
+   "rank": 25,
+   "recipes": 2
+  },
+  "Onion (any)": {
+   "category": "Produce",
+   "rank": 26,
+   "recipes": 2
+  },
+  "Peas": {
+   "category": "Produce",
+   "rank": 27,
+   "recipes": 2
+  },
+  "Mango": {
+   "category": "Produce",
+   "rank": 28,
+   "recipes": 1
+  },
+  "Mint": {
+   "category": "Produce",
+   "rank": 29,
+   "recipes": 1
+  },
+  "Celery": {
+   "category": "Produce",
+   "rank": 30,
+   "recipes": 1
+  },
+  "Mixed Vegetables": {
+   "category": "Produce",
+   "rank": 31,
+   "recipes": 1
+  },
+  "Mushrooms": {
+   "category": "Produce",
+   "rank": 32,
+   "recipes": 1
+  },
+  "Salt": {
+   "category": "Spices & Seasonings",
+   "rank": 0,
+   "recipes": 86
+  },
+  "Paprika": {
+   "category": "Spices & Seasonings",
+   "rank": 1,
+   "recipes": 86
+  },
+  "Garlic Powder": {
+   "category": "Spices & Seasonings",
+   "rank": 2,
+   "recipes": 79
+  },
+  "Black Pepper": {
+   "category": "Spices & Seasonings",
+   "rank": 3,
+   "recipes": 77
+  },
+  "Chilli Flakes": {
+   "category": "Spices & Seasonings",
+   "rank": 4,
+   "recipes": 48
+  },
+  "Onion Powder": {
+   "category": "Spices & Seasonings",
+   "rank": 5,
+   "recipes": 40
+  },
+  "Cumin": {
+   "category": "Spices & Seasonings",
+   "rank": 6,
+   "recipes": 33
+  },
+  "Oregano": {
+   "category": "Spices & Seasonings",
+   "rank": 7,
+   "recipes": 28
+  },
+  "Italian / Mixed Herbs": {
+   "category": "Spices & Seasonings",
+   "rank": 8,
+   "recipes": 19
+  },
+  "Seasoning (other)": {
+   "category": "Spices & Seasonings",
+   "rank": 9,
+   "recipes": 18
+  },
+  "Chilli Powder": {
+   "category": "Spices & Seasonings",
+   "rank": 10,
+   "recipes": 17
+  },
+  "Turmeric": {
+   "category": "Spices & Seasonings",
+   "rank": 11,
+   "recipes": 14
+  },
+  "Garam Masala": {
+   "category": "Spices & Seasonings",
+   "rank": 12,
+   "recipes": 6
+  },
+  "Cinnamon": {
+   "category": "Spices & Seasonings",
+   "rank": 13,
+   "recipes": 5
+  },
+  "Dried Basil": {
+   "category": "Spices & Seasonings",
+   "rank": 14,
+   "recipes": 4
+  },
+  "Nutmeg": {
+   "category": "Spices & Seasonings",
+   "rank": 15,
+   "recipes": 3
+  },
+  "Dried Parsley Flakes": {
+   "category": "Spices & Seasonings",
+   "rank": 16,
+   "recipes": 3
+  },
+  "Thyme": {
+   "category": "Spices & Seasonings",
+   "rank": 17,
+   "recipes": 2
+  },
+  "Sumac": {
+   "category": "Spices & Seasonings",
+   "rank": 18,
+   "recipes": 2
+  },
+  "Coriander Powder": {
+   "category": "Spices & Seasonings",
+   "rank": 19,
+   "recipes": 1
+  },
+  "Olive Oil": {
+   "category": "Pantry",
+   "rank": 0,
+   "recipes": 78
+  },
+  "Honey": {
+   "category": "Pantry",
+   "rank": 1,
+   "recipes": 37
+  },
+  "Basmati Rice": {
+   "category": "Pantry",
+   "rank": 2,
+   "recipes": 29
+  },
+  "Light Soy Sauce": {
+   "category": "Pantry",
+   "rank": 3,
+   "recipes": 28
+  },
+  "Tomato Paste / Passata": {
+   "category": "Pantry",
+   "rank": 4,
+   "recipes": 16
+  },
+  "Rice Vinegar": {
+   "category": "Pantry",
+   "rank": 5,
+   "recipes": 16
+  },
+  "Sriracha": {
+   "category": "Pantry",
+   "rank": 6,
+   "recipes": 14
+  },
+  "Evaporated Milk": {
+   "category": "Pantry",
+   "rank": 7,
+   "recipes": 13
+  },
+  "White Rice (other)": {
+   "category": "Pantry",
+   "rank": 8,
+   "recipes": 12
+  },
+  "Buffalo Sauce": {
+   "category": "Pantry",
+   "rank": 9,
+   "recipes": 10
+  },
+  "Corn Flour / Cornstarch": {
+   "category": "Pantry",
+   "rank": 10,
+   "recipes": 8
+  },
+  "Gochujang Paste": {
+   "category": "Pantry",
+   "rank": 11,
+   "recipes": 8
+  },
+  "Chipotle Paste": {
+   "category": "Pantry",
+   "rank": 12,
+   "recipes": 7
+  },
+  "Oyster Sauce": {
+   "category": "Pantry",
+   "rank": 13,
+   "recipes": 7
+  },
+  "Chilli Garlic Paste": {
+   "category": "Pantry",
+   "rank": 14,
+   "recipes": 7
+  },
+  "Reduced Sugar Ketchup": {
+   "category": "Pantry",
+   "rank": 15,
+   "recipes": 5
+  },
+  "Mustard": {
+   "category": "Pantry",
+   "rank": 16,
+   "recipes": 4
+  },
+  "Sugar Free BBQ Sauce": {
+   "category": "Pantry",
+   "rank": 17,
+   "recipes": 3
+  },
+  "Sugar / Sweetener": {
+   "category": "Pantry",
+   "rank": 18,
+   "recipes": 3
+  },
+  "Coconut Milk": {
+   "category": "Pantry",
+   "rank": 19,
+   "recipes": 2
+  },
+  "Peri Peri / Nando's Marinade": {
+   "category": "Pantry",
+   "rank": 20,
+   "recipes": 2
+  },
+  "Chicken Stock": {
+   "category": "Pantry",
+   "rank": 21,
+   "recipes": 2
+  },
+  "Black Beans": {
+   "category": "Pantry",
+   "rank": 22,
+   "recipes": 2
+  },
+  "Harissa Paste": {
+   "category": "Pantry",
+   "rank": 23,
+   "recipes": 1
+  },
+  "Worcestershire Sauce": {
+   "category": "Pantry",
+   "rank": 24,
+   "recipes": 1
+  },
+  "Chilli Crisp / Chilli Oil": {
+   "category": "Pantry",
+   "rank": 25,
+   "recipes": 1
+  },
+  "Peanut Butter": {
+   "category": "Pantry",
+   "rank": 26,
+   "recipes": 1
+  },
+  "Hoisin Sauce": {
+   "category": "Pantry",
+   "rank": 27,
+   "recipes": 1
+  },
+  "Plain Flour": {
+   "category": "Pantry",
+   "rank": 28,
+   "recipes": 1
+  },
+  "Breadcrumbs / Panko": {
+   "category": "Pantry",
+   "rank": 29,
+   "recipes": 1
+  },
+  "Jasmine Rice": {
+   "category": "Pantry",
+   "rank": 30,
+   "recipes": 1
+  },
+  "Tamarind Paste": {
+   "category": "Pantry",
+   "rank": 31,
+   "recipes": 1
+  },
+  "Fish Sauce": {
+   "category": "Pantry",
+   "rank": 32,
+   "recipes": 1
+  },
+  "Red Kidney Beans": {
+   "category": "Pantry",
+   "rank": 33,
+   "recipes": 1
+  },
+  "Macaroni Pasta": {
+   "category": "Noodles & Pasta",
+   "rank": 0,
+   "recipes": 11
+  },
+  "Egg Noodles": {
+   "category": "Noodles & Pasta",
+   "rank": 1,
+   "recipes": 7
+  },
+  "Penne": {
+   "category": "Noodles & Pasta",
+   "rank": 2,
+   "recipes": 3
+  },
+  "Fettuccine": {
+   "category": "Noodles & Pasta",
+   "rank": 3,
+   "recipes": 2
+  },
+  "Linguine": {
+   "category": "Noodles & Pasta",
+   "rank": 4,
+   "recipes": 2
+  },
+  "Pasta (other)": {
+   "category": "Noodles & Pasta",
+   "rank": 5,
+   "recipes": 1
+  },
+  "Noodles (other)": {
+   "category": "Noodles & Pasta",
+   "rank": 6,
+   "recipes": 1
+  },
+  "Spaghetti": {
+   "category": "Noodles & Pasta",
+   "rank": 7,
+   "recipes": 1
+  },
+  "Rice Noodles": {
+   "category": "Noodles & Pasta",
+   "rank": 8,
+   "recipes": 1
+  },
+  "Sesame Seeds": {
+   "category": "Other",
+   "rank": 0,
+   "recipes": 15
+  },
+  "Water": {
+   "category": "Other",
+   "rank": 1,
+   "recipes": 15
+  },
+  "Cashew Nuts": {
+   "category": "Other",
+   "rank": 2,
+   "recipes": 4
+  },
+  "Baking Soda": {
+   "category": "Other",
+   "rank": 3,
+   "recipes": 3
+  },
+  "Baking Powder": {
+   "category": "Other",
+   "rank": 4,
+   "recipes": 2
+  },
+  "Walnuts": {
+   "category": "Other",
+   "rank": 5,
+   "recipes": 1
+  },
+  "Peanuts": {
+   "category": "Other",
+   "rank": 6,
+   "recipes": 1
+  }
+ },
+ "map": {
+  "800g (28oz) Raw Chicken Breasts, cubed": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1.5 Tsp Salt": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "1 Tsp Black Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Chilli Flakes (omit for milder flavour)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1.5 Tsp Garlic Powder": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "1.5 Tsp Onion Powder": [
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "1.5 Tsp Paprika (or Smoked Paprika)": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "2 Tsp Olive Oil": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "40g (1.5oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "20g (1.5 Tbsp) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "30g (2 Tbsp) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "1.5 Tbsp Fresh Parsley, chopped": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 4.5
+   }
+  ],
+  "30g (2 Tbsp) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "300g (10.5oz) 1% Milk (or any milk)": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "160g (5.6oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 160.0
+   }
+  ],
+  "1 Tsp Salt (or to taste)": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1/2 Tsp Black Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1 Tsp Smoked Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1/2 Tsp Nutmeg (adds a great deep flavour!)": [
+   {
+    "name": "Nutmeg",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "100g (3.5oz) Low Fat Cheddar Cheese (or any low fat cheese)": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "220g (8oz) Uncooked Macaroni Pasta (or pasta of choice)": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 220.0
+   }
+  ],
+  "700g (25oz) Raw Chicken Breast, cubed": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 700.0
+   }
+  ],
+  "20g (1.5 Tbsp) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "30g (2 Tbsp) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "1.5 Tsp Black Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "2 tsp Garlic Powder": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "25-30g (2 Tbsp) Corn Flour/Corn Starch": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 27.5
+   }
+  ],
+  "2-3 Tsp Olive Oil (for cooking)": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.5
+   }
+  ],
+  "800g (28oz) Raw Potatoes, cut into chips": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1 Tsp each Salt, Pepper, Garlic Powder, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "100g (3.5oz) White Onion, chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Red Bell Peppers, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Green Bell Peppers, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "1 Tsp each Salt, Pepper, Garlic Powder, Paprika, Chilli Flakes": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "20g (1.5 Tbsp) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "50g (1.8oz) Green Onion, chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "800g (28oz) Raw Topside/Top Sirloin Beef, 1 inch cubed": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1.5 Tsp Parsley": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "1 Tsp Cumin": [
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1.5 Tsp Smoked Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "1 Whole Lime Juice": [
+   {
+    "name": "Lime",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "20g (1oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "800g (28oz) Uncooked Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "2 Tsp Italian Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "1.5 Tsp Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "2 Tsp Olive Oil (Optional)": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "15g (1 Tbsp) Garlic Cloves, chopped": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "100g (3.5oz) Red Onion, chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "1 Tsp Italian Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "50g (1.8oz) Chipotle Paste": [
+   {
+    "name": "Chipotle Paste",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "250g (9oz) Light Evaporated Milk (or any milk)": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "100g (3.5oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "30g (1.1oz) Parmigiano Reggiano, grated": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "1 Tbsp Fresh Parsley, chopped": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "800g (28oz) Raw Boneless Skinless Chicken Thighs, cubed": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "2 Tsp Black Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "2 Tsp Oregano": [
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "1 Tsp Chilli Flakes": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "2 Tsp Garlic Powder": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "2 Tsp Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "1 Tbsp Lemon Zest": [
+   {
+    "name": "Lemon",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "Juice of 1 Lemon": [
+   {
+    "name": "Lemon"
+   }
+  ],
+  "20g (0.7oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "Juice of 1/2 Lemon": [
+   {
+    "name": "Lemon"
+   }
+  ],
+  "30g (1.1oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "150g (5.3oz) Fat Free Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "80g (2.8oz) 50% Fat Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "1 Tsp Dijon Mustard": [
+   {
+    "name": "Mustard",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Garlic Powder": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Onion Powder": [
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Salt": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "150g (5.3oz) Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "100g (3.5oz) Cucumber, chopped": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "20g (1.5 Tbsp) Garlic Cloves, chopped": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "1 Tsp Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Turmeric": [
+   {
+    "name": "Turmeric",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Oregano": [
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "200g (7oz) Uncooked Basmati Rice / 540g Cooked": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "1 Tsp each: Salt, Black Pepper, Onion Powder, Garlic Powder, Cumin, Paprika, Chilli Powder, Oregano": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Serving Taco Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "2 tsp Olive Oil": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "800g (28oz) Raw 95% Ground/Mince Beef": [
+   {
+    "name": "Beef (any cut)",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "40g (1.4oz) Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "1.5 Serving Taco Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.5
+   }
+  ],
+  "40g (1.4oz) Shredded Mozzarella (or any low fat cheese / 10g per serving)": [
+   {
+    "name": "Mozzarella Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "20g (0.7oz) Grass Fed Butter (or butter of choice)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "100g (3.5oz) 0% Greek Yogurt (or yogurt of choice)": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "80g (2.8oz) 50% Fat Mayonnaise": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "50g Chipotle Paste": [
+   {
+    "name": "Chipotle Paste",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "20g Buffalo Hot Sauce": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "20g Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "3/4 Tsp each Salt, Paprika, Garlic Powder": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.75
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.75
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "200g (7oz) Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "150g (5.3oz) Red Onion, chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "75g (2.7oz) Red Bell Peppers, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "75g (2.7oz) Green Bell Peppers, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "30g (2 Tbsp) Coriander/Cilantro, chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "1/2 Tsp each Salt, Pepper, Garlic Powder, Cumin, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "Juice of 1 Whole Lime": [
+   {
+    "name": "Lime"
+   }
+  ],
+  "800g (28oz) Raw Chicken Breast, cubed": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1 Tsp Chilli Flakes (omit for less heat)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "80g (2.8oz) White Onion, chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "1 Tsp each Salt, Italian Herbs, Parsley, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1/2 Tsp Chilli Flakes (omit for milder flavour)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "150g (5.3oz) Tomato Passata": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "300g (10.6oz) Light Evaporated Milk (or regular milk)": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "130g (4.6oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 130.0
+   }
+  ],
+  "Optional Pasta Water if the sauce is too thick": [],
+  "210g (7.4oz)Uncooked Fettuccine Pasta (or pasta of choice)": [
+   {
+    "name": "Fettuccine",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "1 Tsp each: Salt, Black Pepper, Garlic Powder, Onion Powder, Paprika, Chilli Powder or Cayenne Pepper, Thyme, Oregano": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Thyme",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "2 Tsp Parsley": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "1 Tsp Chilli Powder": [
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "2 Tbsp Fresh Parsley, chopped": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "280g (10oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 280.0
+   }
+  ],
+  "150g (5.3oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "35g (1.3oz) Light Cheddar": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 35.0
+   }
+  ],
+  "35g (1.3oz) Shredded Mozzarella": [
+   {
+    "name": "Mozzarella Cheese",
+    "family": "mass",
+    "base": 35.0
+   }
+  ],
+  "1 Serving Cajun Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "200g (7oz) Uncooked Macaroni Pasta (or pasta of choice)": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "1000g Raw Boneless Skinless Chicken Thighs": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "1.5 Tsp Oregano": [
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "1.5 Tsp Cumin": [
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "70g Chipotle Paste or Chipotle Peppers in Adobo": [
+   {
+    "name": "Chipotle Paste",
+    "family": "mass",
+    "base": 70.0
+   }
+  ],
+  "50g Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "3/4 of a Lime Juiced": [
+   {
+    "name": "Lime",
+    "family": "count",
+    "base": 0.75
+   }
+  ],
+  "20g Light Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "100g White Onion Chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "3/4 Tsp Garlic Powder": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "3/4 Tsp Smoked Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "1/2 Tsp Cumin": [
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "280g Raw Basmati Rice (Cook this prior to making this)": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 280.0
+   }
+  ],
+  "Big Handful Chopped Cilantro/Coriander": [
+   {
+    "name": "Coriander / Cilantro"
+   }
+  ],
+  "100g Low Fat Yogurt (Any yogurt works)": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "50g Light Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "20-30g Chipotle Paste": [
+   {
+    "name": "Chipotle Paste",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "50g Pineapple Chunks (Fresh preferably)": [
+   {
+    "name": "Pineapple",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "1/2 Tsp Salt": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1/2 Tsp Garlic Powder": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1/2 Tsp Onion Powder": [
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "Squeeze of Lime Juice": [
+   {
+    "name": "Lime"
+   }
+  ],
+  "I like to pair this with a nice side salsa consisting of chopped tomatoes, red onion, bell peppers, cucumber, salt, pepper and pickle juice": [],
+  "1 Tsp each: Salt, Black Pepper, Onion Powder, Chilli Powder, Cumin, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "25g (2 Tbsp) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "1.5 Servings Chilli Lime Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.5
+   }
+  ],
+  "1 Tbsp Fresh Coriander, chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "10g (3/4 Tbsp) Extra Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "100g (3.5oz) 0% Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) 50% Fat Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "50g (2oz) Habanero Hot Sauce (or hot sauce of choice)": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "Juice of 1/2 Lime": [
+   {
+    "name": "Lime"
+   }
+  ],
+  "210-220g (7.4-7.8oz) Uncooked Basmati Rice (yields approximately 560g or 20oz cooked)": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 215.0
+   }
+  ],
+  "200g (7oz) Avocado, thinly sliced (50g or 1.75oz per serving)": [
+   {
+    "name": "Avocado",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "2 Tsp Onion Powder": [
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "30g (1.1oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "800g (28oz) Raw Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1 Tsp Parsley": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "2 Tsp Olive Oil (Optional) or Cooking Spray": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "250g (9oz) Light Evaporated Milk": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "150g (5.3oz) Garlic & Herb Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "800g (28oz) 95% Raw Ground/Mince Beef": [
+   {
+    "name": "Beef (any cut)",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "20g (0.7oz) Grass Fed Butter (or any butter for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "75g (2.7oz) Yellow Bell Peppers, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "1.5 Tsp each Salt, Pepper, Paprika, Chilli Flakes": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.5
+   },
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "140g (5oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 140.0
+   }
+  ],
+  "50g (1.8oz) Shredded Mozzarella": [
+   {
+    "name": "Mozzarella Cheese",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "3 to 4 (19g each) Light Cheese Slices": [
+   {
+    "name": "Cheese (other)",
+    "family": "count",
+    "base": 3.0
+   }
+  ],
+  "125g (1/2 Cup or 4.5oz) Pasta Water (after the pasta is cooked)": [],
+  "Garnish Fresh Parsley, chopped": [
+   {
+    "name": "Fresh Parsley"
+   }
+  ],
+  "240g (8.5oz) Uncooked Macaroni Pasta": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 240.0
+   }
+  ],
+  "1000g (35oz) Raw Beef Topside Steaks, cubed": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "3 Tsp Olive Oil": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "40g (1.4oz) Light Butter (for cooking + once cooked)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "35g (1.2oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 35.0
+   }
+  ],
+  "1 Tbsp Parsley, chopped": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "Sliced Cucumbers": [
+   {
+    "name": "Cucumber"
+   }
+  ],
+  "Soy Sauce": [
+   {
+    "name": "Light Soy Sauce"
+   }
+  ],
+  "Rice Vinegar": [
+   {
+    "name": "Rice Vinegar"
+   }
+  ],
+  "Garlic Powder": [
+   {
+    "name": "Garlic Powder"
+   }
+  ],
+  "Sesame Seeds": [
+   {
+    "name": "Sesame Seeds"
+   }
+  ],
+  "300g / 10.6oz Dry/Uncooked Weight Medium Egg Noodles": [
+   {
+    "name": "Egg Noodles",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "300g (10.6oz) Dry/Uncooked Medium Egg Noodles": [
+   {
+    "name": "Egg Noodles",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "80g (2.8oz) Gochujang Paste (adjust to your spice level)": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "300g (10.6oz) 1% Milk or Evaporated Milk": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "110g (3.8oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 110.0
+   }
+  ],
+  "40g (1.4oz) Parmesan Cheese, grated": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "125 (1/2 Cup) Noodle/ Pasta Water (From the boiled noodles)": [],
+  "Garnish Green Onion, Sesame Seeds, Parmesan Cheese": [
+   {
+    "name": "Green Onion / Scallion"
+   }
+  ],
+  "2 Tsp Mixed Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "20g (1oz) Reduced Fat Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "120g (4.2oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "40g (1.4oz) Grated Parmigiano Reggiano": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "1/2 Tsp each Salt, Garlic Powder, Mixed Herbs": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1 Tsp each Salt, Garlic Powder, Mixed Herbs, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1/2 Tsp Chilli Flakes": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1 Tsp each: Salt, Black Pepper, Garlic Powder, Onion Powder, Oregano, Thyme, Paprika, Chilli Powder": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Thyme",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "800g (28oz) Raw Chicken Breast, butterflied halves": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1.5 Serving Cajun Seasoning Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.5
+   }
+  ],
+  "25g (1oz) Grass Fed Butter (or any butter)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "20g (1.5 Tbsp) Garlic Cloves chopped": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "15g (0.5oz) Grass Fed Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "1/2 Serving Cajun Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 0.5
+   }
+  ],
+  "200-210g (7.1-7.4oz) Uncooked Basmati Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 205.0
+   }
+  ],
+  "250g (8.8oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "40g (1.4oz) Parmigiano Reggiano, grated": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "40g (1.4oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "900g (32oz) Raw Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "30g (2 Tbsp) 50% Fat Mayonnaise": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "15g (1 Tbsp) Sriracha or any Hot Sauce": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "Juice of 1/4 Lemon": [
+   {
+    "name": "Lemon"
+   }
+  ],
+  "280g (10oz) Uncooked White Rice/620g cooked weight": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 280.0
+   }
+  ],
+  "150g (5.3oz) White Onion, finely chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "100g (3.5oz) Spring Onion, white part chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Carrots, chopped": [
+   {
+    "name": "Carrot",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "Extra Seasoning: 1 Tsp each Black Pepper, Onion Powder, Parsley": [
+   {
+    "name": "Black Pepper"
+   }
+  ],
+  "2 Whole Large Eggs": [
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 2.0
+   }
+  ],
+  "20g (1oz) Dark Soy Sauce (add more if needed)": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "20g (1oz) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "40g (1.4oz) Oyster Sauce": [
+   {
+    "name": "Oyster Sauce",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "50g (1.8oz) Spring Onion, green part chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "150g (5.3oz) Light Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "75g (2.7oz) Reduced Sugar Ketchup": [
+   {
+    "name": "Reduced Sugar Ketchup",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "75g (2.7oz) Sriracha": [
+   {
+    "name": "Sriracha",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "1 Tsp Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1/2 Tsp Ginger Powder": [
+   {
+    "name": "Ginger",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1 Tbsp Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "Dash of Milk or Water for desired consistency": [
+   {
+    "name": "Water"
+   }
+  ],
+  "Fresh Parsley chopped": [
+   {
+    "name": "Fresh Parsley"
+   }
+  ],
+  "Chilli & Garlic grinder mix": [
+   {
+    "name": "Chilli Garlic Paste"
+   }
+  ],
+  "1000g (35oz) Raw Chicken Breast, cubed": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "2 Tsp Smoked Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "30g (1.1oz) Light Butter (for cooking all batches)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "60g (2.1oz) Honey (to coat all batches)": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "160g (5.6oz) Sugar Free BBQ Sauce (Brand: G Hughes)": [
+   {
+    "name": "Sugar Free BBQ Sauce",
+    "family": "mass",
+    "base": 160.0
+   }
+  ],
+  "1000g (35oz) Uncooked Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "30g (1.1oz) Grated Parmigiano Reggiano": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "2 Tsp Olive Oil (optional)": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "200g (7oz) Fat Free Cottage Cheese, blended": [
+   {
+    "name": "Cottage Cheese",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "300ml (10.6oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "vol",
+    "base": 300.0
+   }
+  ],
+  "1000g (35oz) Raw Topside/ Top Sirloin Beef, 1 inch cubed": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "2 Tsp Salt": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "30g (1.1oz) Reduced Fat Butter (for cooking + extra)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "20g (1oz) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "Pinch of Chilli Flakes (omit for no spice)": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "1100g (39oz) Raw Potatoes, cut into chunks": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 1100.0
+   }
+  ],
+  "20g (1oz) Light Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "80g (2.8oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "100g (3.5oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "15g (1oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "1/2 Tsp Salt or to taste": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1/2 Tsp Chilli Flakes (omit for no spice)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1 Tbsp Dijon Mustard": [
+   {
+    "name": "Mustard",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "1 Tbsp Fresh parsley": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "200g (7oz) Blended Cottage Cheese": [
+   {
+    "name": "Cottage Cheese",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "250-250g (7-8.8oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "1000g (35oz) Raw Boneless Skinless Chicken Thighs": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "1.5 Tsp Cinnamon": [
+   {
+    "name": "Cinnamon",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "1.5 Tsp Sumac": [
+   {
+    "name": "Sumac",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "Juice of 3/4 Lemon": [
+   {
+    "name": "Lemon"
+   }
+  ],
+  "35g (2.5 Tbsp) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 35.0
+   }
+  ],
+  "200g (7oz) White Onion, finely chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "250g (8.8oz) Uncooked Basmati Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "600g (21oz) Water": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 600.0
+   }
+  ],
+  "75g (2.7oz) Light Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "25g (1oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "1/2 Tsp each Salt & Black Pepper": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "25g (1oz) Pickle Juice (add to your desired consistency)": [
+   {
+    "name": "Pickles / Gherkins",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "250g (5.3oz) Red Onion, thinly sliced": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "300g (10.6oz) Cherry Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "200g (7oz) Pickled Gherkins, thinly sliced": [
+   {
+    "name": "Pickles / Gherkins",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "1 Tsp each Salt & Black Pepper": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Sumac": [
+   {
+    "name": "Sumac",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "3 Tsp Oregano": [
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "2.5 Tsp Smoked Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 2.5
+   }
+  ],
+  "2.5 Tsp Garlic Powder": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 2.5
+   }
+  ],
+  "2.5 Tsp Onion Powder": [
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 2.5
+   }
+  ],
+  "15g (3 Tsp) Olive Oil": [
+   {
+    "name": "Olive Oil",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "30g (1.1oz) Honey (for all the chicken)": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "100g (3.5oz) White Onion, finely chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Red Onion, finely chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Green Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Red Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Yellow Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "2 Tsp Salt (adjust to taste)": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "300g (10.6oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "120g (4.2oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "50g (1.8oz) Fat Free Cottage Cheese": [
+   {
+    "name": "Cottage Cheese",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "80g (2.8oz) Low Fat Cheddar Cheese, grated": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "275g (9.7oz) Uncooked Macaroni Pasta": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 275.0
+   }
+  ],
+  "1000g (35oz) Raw Boneless Skinless Chicken Thighs, cubed": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "20g (1.5 Tbsp) Ginger Paste": [
+   {
+    "name": "Ginger",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "2 Tsp Red Pepper Flakes": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "30g (2 Tbsp) Sriracha": [
+   {
+    "name": "Sriracha",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "100g (3.5oz) Freshly Squeezed Orange Juice": [
+   {
+    "name": "Orange (juice/zest)",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "1.5 Tsp Orange Zest": [
+   {
+    "name": "Orange (juice/zest)",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "25g (1oz) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "Oven bake or air fry for 19-22 mins at 200C/400F. Should come out golden brownwith a glaze": [],
+  "15g (1 Tbsp) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "25g (1oz) Sesame Seeds": [
+   {
+    "name": "Sesame Seeds",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "250g (8.8oz) Uncooked White Rice/690g Cooked (leftover or day old cooked)": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "50g (1.8oz) Green Onion, green part chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "Garnish Sesame Seeds": [
+   {
+    "name": "Sesame Seeds"
+   }
+  ],
+  "300g (10.6oz) Green Cabbage, thinly sliced": [
+   {
+    "name": "Cabbage",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "400g (14oz) Cucumber, thinly sliced": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "200g (7oz) Red Onion, thinly sliced": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "200g (7oz) Carrots, grated": [
+   {
+    "name": "Carrot",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "150g (5.3oz) Green Onion, finely chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "25g (1oz) Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "1 or 2 Tsp Red Pepper Flakes (omit for no spice)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "1000g (35oz) Raw Topside/Top Sirloin Beef, 1 inch cubed": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "1.5 Tsp Chilli Flakes": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "900g (32oz) Raw White Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "250g (8.8oz) Broccoli Florets, chopped": [
+   {
+    "name": "Broccoli",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "200g (7oz) Red Onion, chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "200g (7oz) Red Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "1.5 Tsp Italian Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "50g (1.8oz) Parmigiano Reggiano, grated": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "10g (2 Tsp) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "1/2 Tsp Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1/2 Tsp Italian Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1/2 Tsp Parsley": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "2 Tsp Dried Basil": [
+   {
+    "name": "Dried Basil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "10g (2 Tsp) Reduced Fat Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "350g (12.4oz) Red or White Onion, finely sliced": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 350.0
+   }
+  ],
+  "80g (2.8oz) Sun-dried Tomatoes, drained and chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "10g (2 Tsp) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "380g (13.4oz) 1% Milk or Skimmed Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 380.0
+   }
+  ],
+  "180g (6.4oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 180.0
+   }
+  ],
+  "15g (1 Tbsp) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "250g (8.8oz) Uncooked Basmati Rice/600g Cooked": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "1.5 Tsp Lemon Zest": [
+   {
+    "name": "Lemon",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "1000g (35oz) Raw Boneless Chicken Thighs, cubed": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "100g (3.5oz) Low Sugar Ketchup": [
+   {
+    "name": "Reduced Sugar Ketchup",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "75ml (2.7oz) Pineapple Juice (fresh preferably)": [
+   {
+    "name": "Pineapple",
+    "family": "vol",
+    "base": 75.0
+   }
+  ],
+  "20ml (1oz) Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "vol",
+    "base": 20.0
+   }
+  ],
+  "50g (1.8oz) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "250g (5.3oz) Fresh Pineapple, diced and cubed": [
+   {
+    "name": "Pineapple",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "75g (2.7oz) Red Onion, chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "50g (1.8oz) Red Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "50g (1.8oz) Yellow Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "50g (1.8oz) Green Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "25g (1.5 Tbsp) Garlic Cloves, finely chopped": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "80g (2.8oz) Green Onion, chopped (white part)": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "150g (5.3oz) Carrots, chopped": [
+   {
+    "name": "Carrot",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "3 Whole Eggs": [
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 3.0
+   }
+  ],
+  "40g (1.4oz) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "100g (3.5oz) Kimchi, chopped": [
+   {
+    "name": "Kimchi",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "80-100g (3.5oz) Kimchi Juice (from the jar)": [
+   {
+    "name": "Kimchi",
+    "family": "mass",
+    "base": 90.0
+   }
+  ],
+  "30g (1.1oz) Green Onion, chopped (green part)": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "Garnish Sesame Seeds & Red Pepper Flakes": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "1000g (35oz) 95% Raw Ground/Minced Beef": [
+   {
+    "name": "Lean Ground Beef",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "2.5 Tsp Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 2.5
+   }
+  ],
+  "2 Tsp Cumin": [
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "80g (2.8oz) Chipotle Paste": [
+   {
+    "name": "Chipotle Paste",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "20g (1oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "Splash of Water (if too dry)": [
+   {
+    "name": "Water"
+   }
+  ],
+  "1200g (42oz) Uncooked Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 1200.0
+   }
+  ],
+  "1.5 Tsp Chipotle Chilli Flakes (Omit for less heat)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "Salt To Taste (after cooking)": [
+   {
+    "name": "Salt"
+   }
+  ],
+  "250g (8.8oz) Low Fat Greek Yogurt (or yogurt of choice)": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "100g (3.5oz) Light Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "1/2 Tsp each: Salt, Garlic, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "300g (10.6oz) Fresh Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "1.5 Tbsp Fresh Coriander, finely chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 4.5
+   }
+  ],
+  "1/2 Tsp each: Salt, Black Pepper": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1000g (35oz) Boneless Chicken Thighs": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "200g (7.1oz) Fresh Tomatoes, firm preferably": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "30g (1.1oz) Fresh Parsley": [
+   {
+    "name": "Fresh Parsley",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "40g (1.4oz) Garlic Cloves": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "100g (3.5oz) White Onion": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Red Onion": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Red Bell Peppers": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "150g (5.3oz) Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "160g (5.6oz) Harissa Paste or Red Pepper Paste": [
+   {
+    "name": "Black Pepper",
+    "family": "mass",
+    "base": 160.0
+   }
+  ],
+  "3 Tsp Olive Oil After blending the marinade, try to drain any excess liquid that builds to the surface. Allows for a thicker marinade with less moisture and chicken to get a good char/grill Oven bake or air fry for 20 mins at 200C and broil/grill for 5 mins or longer if needed to get that charred crust": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "250g (8.8oz) Uncooked Basmati Rice / Approx 600g Cooked": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "15g (0.5oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "2 Tsp Dried Parsley": [
+   {
+    "name": "Dried Parsley Flakes",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "200g (7.1oz) Low Fat Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "60g (2.1oz) Light Mayo (Optional)": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "60g (2.1oz) Harissa Paste": [
+   {
+    "name": "Harissa Paste",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "Splash of Pickle Juice (for desired consistency)": [
+   {
+    "name": "Pickles / Gherkins"
+   }
+  ],
+  "300g (10.6oz) Fresh Tomatoes, de seeded & finely chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "300g (10.6oz) Cucumber, de seeded & finely chopped": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "200g (7.1oz) Red Onion, finely chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "Handful Fresh Parsley, finely chopped": [
+   {
+    "name": "Fresh Parsley"
+   }
+  ],
+  "1000g (35oz) Raw Chicken Breast, small cubes": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "40g (1.4oz) Reduced Fat Butter (for cooking + glaze)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "20g (1oz) Honey (for all the chicken)": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "15g (0.5oz) Soy Sauce (for all the chicken)": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "30g (1.1oz) Fresh Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "150g (5.3oz) Sundried Tomatoes, drained & chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "1 Tbsp Italian Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "350-375g (12.4oz) 1% Milk (or milk of choice)": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 362.5
+   }
+  ],
+  "200g (7.1oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "60g (2.1oz) Grated Parmesan": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "2 Pieces Parmesan Rind - Optional(outer layer, adds so much flavour!)": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "count",
+    "base": 2.0
+   }
+  ],
+  "275g (9.7oz) Uncooked Linguine or Fettuccine Pasta": [
+   {
+    "name": "Fettuccine",
+    "family": "mass",
+    "base": 275.0
+   }
+  ],
+  "Garnish with Parsley": [
+   {
+    "name": "Fresh Parsley"
+   }
+  ],
+  "1000g (35oz) Raw Top Sirloin Beef, sliced into thin strips": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "70g (2.4oz) Worcestershire Sauce": [
+   {
+    "name": "Worcestershire Sauce",
+    "family": "mass",
+    "base": 70.0
+   }
+  ],
+  "3 Tsp Olive Oil (Optional)": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "20g (1oz) Light Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "200g (7.1oz) White Onion, sliced thin": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "100g (3.5oz) Green Bell Pepper, sliced thin": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Red Bell Pepper, sliced thin": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "8 Reduced Fat Cheese Slices": [
+   {
+    "name": "Cheese (other)",
+    "family": "count",
+    "base": 8.0
+   }
+  ],
+  "100g (3.5oz) Low Fat Cheddar": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "10g (0.3oz) Light Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "25g (1oz) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "260g (9oz) Uncooked Basmati Rice/ Approx 600g Cooked Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 260.0
+   }
+  ],
+  "1/2 Tsp Chilli Flakes (Optional)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1000g (35oz) Boneless Skinless Chicken Thighs, cubed": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "1.5 Tsp Chilli Powder": [
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "2 Tbsp Baking Powder": [
+   {
+    "name": "Baking Powder",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "2 Tbsp Dark Brown Sugar": [
+   {
+    "name": "Sugar / Sweetener",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "30g (1.1oz) Reduced Fat Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "Dry Spice Rub - Smoked Paprika, Garlic Powder, Onion Powder (once cooked)": [
+   {
+    "name": "Garlic Powder"
+   }
+  ],
+  "270g (9.5oz) Uncooked Macaroni Pasta": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 270.0
+   }
+  ],
+  "350g (12.3oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 350.0
+   }
+  ],
+  "100g (3.5oz) Low Fat Sharp Cheddar": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "1.5 Tbsp Mustard": [
+   {
+    "name": "Mustard",
+    "family": "spoon",
+    "base": 4.5
+   }
+  ],
+  "1 Tsp Each: Smoked Paprika, Garlic & Onion Powder": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1/2 Tsp each: Black Pepper, Chilli Powder": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "30g (1.1oz) Light Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "Extra Seasoning: garlic, Onion Powder, Paprika, Oregano": [
+   {
+    "name": "Onion Powder"
+   }
+  ],
+  "Fresh Parsley": [
+   {
+    "name": "Fresh Parsley"
+   }
+  ],
+  "1100g (38.8oz) Raw Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 1100.0
+   }
+  ],
+  "1 Tbsp Garlic Powder": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "1 Tbsp Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "40-50g (1.7oz) Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 45.0
+   }
+  ],
+  "250g (8.8oz) Light/Fat Free Evaporated Milk": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "1000g (35oz) Raw Chicken Breast, cut into cubes": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "Juice of 1/2 or 1 Lime": [
+   {
+    "name": "Lime"
+   }
+  ],
+  "25g (1oz) Light Butter (for cooking all chicken)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "2 Tsp Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "2 Tbsp Fresh Parsley, finely chopped": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "400g (14.1oz) Canned Sweetcorn, drained": [
+   {
+    "name": "Corn",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "60g (2.1oz) Light Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "100g (3.5oz) Fat Free Greek Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "50g (1.7oz) Cholula Hot Sauce, or hot sauce of choice": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "50g (1.7oz) Jalapeños, de seeded and finely chopped": [
+   {
+    "name": "Fresh Chilli",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "2 Tbsp Fresh Coriander, finely chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "2 Tsp Tajin Seasoning": [
+   {
+    "name": "Seasoning (other)",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "100g (3.5oz) Crumbled Feta Cheese": [
+   {
+    "name": "Cheese (other)",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "190g (6.7oz) Uncooked Basmati Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 190.0
+   }
+  ],
+  "3 Tbsp Fresh Coriander, finely chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 9.0
+   }
+  ],
+  "Optional Squeeze of Lime, i didn't add it as the other components already have lime juice": [
+   {
+    "name": "Lime"
+   }
+  ],
+  "30g (1.1oz) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "Lots of Lime Zest": [
+   {
+    "name": "Lime"
+   }
+  ],
+  "Juice of 1 Lime": [
+   {
+    "name": "Lime"
+   }
+  ],
+  "Marinate for as long as you can": [],
+  "Spread evenly on a lined sheet pan, make sure it ﬁlls the pan well": [],
+  "Oven bake or air fry for 20-22 mins at 200C / 400F": [],
+  "1000g (35oz) Raw Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "25-30g (1.1oz) Shredded Coconut": [
+   {
+    "name": "Coconut Milk",
+    "family": "mass",
+    "base": 27.5
+   }
+  ],
+  "150g (5.3oz) Greek Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "50g (1.7oz) Light Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "10g (0.3oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "1 Green Chilli, de seeded": [
+   {
+    "name": "Fresh Chilli",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "Big Handful Coriander/Cilantro": [
+   {
+    "name": "Coriander / Cilantro"
+   }
+  ],
+  "Pinch of Salt & Pepper": [
+   {
+    "name": "Black Pepper"
+   }
+  ],
+  "200g (7.1oz) Cucumber, de seeded chopped": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "150g (5.3oz) Red Onion, finely chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "200g (7.1oz) Ripe Mango, chopped": [
+   {
+    "name": "Mango",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "150g (5.3oz) Red & Green Bell Peppers, finely chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "1 Tbsp Fresh Coriander/Cilantro, finely chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "1000g (35oz) Raw Top Sirloin Steaks, cut into 1 inch cubes": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "2.5 Tsp Italian Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 2.5
+   }
+  ],
+  "25g (1oz) Light Butter, for cooking all": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "4 Tsp Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 4.0
+   }
+  ],
+  "2 Tbsp Fresh Parsley": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "120g (4.2oz) Sundried Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "3 Tsp Italian Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "240g (8.4oz) Uncooked Basmati Rice / approx 580g (20oz) Cooked": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 240.0
+   }
+  ],
+  "50g (1.7oz) Grated Parmesan Cheese": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "250g (8.8oz) Low Fat Milk or Light Evaporated Milk": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "150g (5.3oz) Light Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "1 Tsp Mixed Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1000g (35oz) Raw Boneless Skinless Chicken Thighs, fat trimmed": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "1.5 Tsp Red Pepper Flakes or Chilli Flakes": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "2-3 Tsp Olive Oil": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.5
+   }
+  ],
+  "25g (1oz) Light Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "40g (1.4oz) Gochujang Hot Sauce (brand: O'Food)": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "20g (1oz) Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "230g (8oz) Uncooked Macaroni Pasta": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 230.0
+   }
+  ],
+  "300ml Skimmed Milk": [
+   {
+    "name": "Milk",
+    "family": "vol",
+    "base": 300.0
+   }
+  ],
+  "180g (6.3oz) Light Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 180.0
+   }
+  ],
+  "3/4 Tsp Salt": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "3/4 Tsp Black Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "3/4 Tsp Nutmeg": [
+   {
+    "name": "Nutmeg",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "120g (4.2ox) Low Fat Cheddar Cheese": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "300g (10.6oz) Cucumber, thinly sliced": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "150g (5.3oz) Red Onion, thinly sliced": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "100g (3.5oz) Green Onion, chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "3/4 Tsp Red Pepper Flakes": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "1000g (35oz) Raw 5% Minced/Ground Beef": [
+   {
+    "name": "Lean Ground Beef",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "65g (2.2oz) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 65.0
+   }
+  ],
+  "20g (1oz) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "1.5 Tbsp Garlic Paste": [
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 4.5
+   }
+  ],
+  "1 Tbsp Ginger Paste": [
+   {
+    "name": "Ginger",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "60g (2.1oz) Gochujang Paste": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "50g (1.7oz) Oyster Sauce": [
+   {
+    "name": "Oyster Sauce",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "30g (1.1oz) Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "2 Tbsp Sesame Seeds": [
+   {
+    "name": "Sesame Seeds",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "50g (1.7oz) Green Onion, chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "200g (7.1oz) Fat Free/Low Fat Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "20g (1oz) Gochujang Paste": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "15-20g (1oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 17.5
+   }
+  ],
+  "Milk/Evaporated Milk for desired consistency": [
+   {
+    "name": "Evaporated Milk"
+   }
+  ],
+  "250g (8.8oz) Uncooked Jasmine or Basmati Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "400g (14.1oz) Cucumber, thinly sliced": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "300g (10.6oz) Carrots, grated": [
+   {
+    "name": "Carrot",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "250g (8.8oz) Red Onion, thinly sliced": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "25g (1oz) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "25g (1oz) Sriracha": [
+   {
+    "name": "Sriracha",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "1000g (35oz) Raw Boneless Chicken Thighs": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "30-40g (1.4oz) Chilli Crisp Oil drain the extra oil (Brand: Lee Kum Kee)": [
+   {
+    "name": "Chilli Crisp / Chilli Oil",
+    "family": "mass",
+    "base": 35.0
+   }
+  ],
+  "35g (1.25oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 35.0
+   }
+  ],
+  "300g (10.6oz) Pineapple": [
+   {
+    "name": "Pineapple",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "200g (7.1oz) Cucumber": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "150g (5.3oz) Red Onion": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "200g (7.1oz) Red Bell Pepper": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "200g (7.1oz) Avocado": [
+   {
+    "name": "Avocado",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "2 Tbsp Coriander/Cilantro": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "Pinch Salt & Pepper": [
+   {
+    "name": "Black Pepper"
+   }
+  ],
+  "200g (7.1oz) Uncooked Basmati Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "Freshly Chopped Coriander": [
+   {
+    "name": "Coriander / Cilantro"
+   }
+  ],
+  "Oregano": [
+   {
+    "name": "Oregano"
+   }
+  ],
+  "Chilli & Garlic Salt": [
+   {
+    "name": "Chilli Garlic Paste"
+   }
+  ],
+  "1000g (35oz) 5% Fat Raw Ground Beef": [
+   {
+    "name": "Lean Ground Beef",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "Avocado Oil Cooking Spray (or any of choice)": [
+   {
+    "name": "Avocado"
+   }
+  ],
+  "250g (8.8oz) White Onion, chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "60g (2.1oz) Tomato Paste Extra Seasoning": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "1/2 Tsp Salt & Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "Add extra tomato paste if needed": [
+   {
+    "name": "Tomato Paste / Passata"
+   }
+  ],
+  "260g (9.1oz) Uncooked Pasta of choice Garlic Mint Sauce": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 260.0
+   }
+  ],
+  "400-500g (17.6oz) Skyr Fat Free Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 450.0
+   }
+  ],
+  "1.5 Tsp Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "1 Tsp Dried Mint": [
+   {
+    "name": "Mint",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "Pinch of Salt": [
+   {
+    "name": "Salt"
+   }
+  ],
+  "1/2 Lemon Juice Chilli Butter Sauce": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "count",
+    "base": 0.5
+   }
+  ],
+  "40-50g (1.7oz) Light Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 45.0
+   }
+  ],
+  "Pinch of Salt (not too much!)": [
+   {
+    "name": "Salt"
+   }
+  ],
+  "1/2 Tsp Chilli Flakes (to your preference)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "15g (0.5oz) Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "Pasta Water for extra volume Garnish": [],
+  "Cherry Tomatoes, chopped": [
+   {
+    "name": "Tomato"
+   }
+  ],
+  "Fresh Mint Leaves, chopped": [
+   {
+    "name": "Mint"
+   }
+  ],
+  "Chilli Garlic seasoning (optional)": [
+   {
+    "name": "Chilli Garlic Paste"
+   }
+  ],
+  "1 Tsp each: Salt, Oregano, Garlic Powder, Onion Powder, Paprika, Chilli Powder, Cumin": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "750g (27oz) Raw Chicken Breast, cubed": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 750.0
+   }
+  ],
+  "1.5 Serving Fajita Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.5
+   }
+  ],
+  "240g (8.5oz) Uncooked Macaroni Pasta (or pasta of choice)": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 240.0
+   }
+  ],
+  "75g (2.7oz) White Onion, finely chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "75g (2.7oz) Red Onion, finely chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "75g (2.7oz) Red Bell Pepper, finely chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "75g (2.7oz) Green Bell Pepper, finely chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "1/2 Serving Fajita Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 0.5
+   }
+  ],
+  "280g (10oz) 1% Milk 9or any milk)": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 280.0
+   }
+  ],
+  "50g (1.8oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "35g (1.25oz) Light Cheddar, grated": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 35.0
+   }
+  ],
+  "35g (1.25oz) Shredded Mozzarella": [
+   {
+    "name": "Mozzarella Cheese",
+    "family": "mass",
+    "base": 35.0
+   }
+  ],
+  "1 Tsp each: Salt, Black Pepper, Cumin, Turmeric, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Turmeric",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1/2 Tsp Cinnamon": [
+   {
+    "name": "Cinnamon",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "800g (28oz) Raw Chicken Breast, thinly sliced": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1.5 Serving Shawarma Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.5
+   }
+  ],
+  "100g (3.5oz) Low Fat Sour Cream or Yogurt": [
+   {
+    "name": "Sour Cream",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) 50% Fat Mayonnaise": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "10g (1.5 Tsp) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "900g (32oz) Raw Potatoes, thinly sliced into fries": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "1 Tsp each Salt, Black Pepper, Paprika, Cumin": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "Pickled Red Onions": [
+   {
+    "name": "Red Onion"
+   }
+  ],
+  "Feta Cheese Crumble": [
+   {
+    "name": "Cheese (other)"
+   }
+  ],
+  "750g (26.5oz) Raw Chicken Breast, butterflied halves": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 750.0
+   }
+  ],
+  "25g (1.5 Tbsp) Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "1.5 tsp Salt & Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "2 tsp Cumin": [
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "3/4 Lemon Juice": [
+   {
+    "name": "Lemon",
+    "family": "count",
+    "base": 0.75
+   }
+  ],
+  "40g Light Butter (for cooking all pieces)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "100g (3.5oz) 0% Greek Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Cucumbers, chopped": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "120g (4.2oz) Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "Season to taste: Salt, Garlic Powder, Cumin": [
+   {
+    "name": "Garlic Powder"
+   }
+  ],
+  "200g (7oz) 0% Greek Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "30g (1.1oz) Buffalo Hot Sauce (or any hot sauce)": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "1/2 Tsp each: Salt, Black Pepper, Garlic Powder, Onion Powder, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "200g (7oz) Uncooked Basmati Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "20g (1 oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "20g (1oz) Grass Fed Butter for cooking": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "60g (2.1oz) Buffalo Sauce": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "200g (7oz) Red Cabbage, thinly sliced": [
+   {
+    "name": "Cabbage",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "150g (5.3oz) Carrots, grated": [
+   {
+    "name": "Carrot",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "30g (2 Tbsp) Coriander/ Cilantro, chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "50g (1.8oz) 50% Fat Mayonnaise": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "10g (0.5oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "1 Tsp each: Salt, Black Pepper": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "80g (3oz) 50% Fat Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "120g (4.5oz) Buffalo Hot Sauce": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "1/2 Tsp each: Garlic Powder, Smoked Paprika, Black Pepper": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "200g Uncooked Basmati Rice/Approx 135g Cooked Rice per serving": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "100g (3.5oz) Cherry Tomatoes": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "1 cup or Big Handful Spinach": [
+   {
+    "name": "Spinach",
+    "family": "cup",
+    "base": 1.0
+   }
+  ],
+  "350g (12.4oz) 1% Milk (or any milk)": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 350.0
+   }
+  ],
+  "70g (2.5oz) Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 70.0
+   }
+  ],
+  "1 Tsp Dried Basil": [
+   {
+    "name": "Dried Basil",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "Salt to taste": [
+   {
+    "name": "Salt"
+   }
+  ],
+  "210g Uncooked Basmati/Approx 140g Cooked Rice per serving": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "Sprinkle Mixed Herbs and Salt to taste": [
+   {
+    "name": "Italian / Mixed Herbs"
+   }
+  ],
+  "40g (1.4oz) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "30g (2 Tbsp) Gochujang Paste": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "50g Green Onion chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "50g (1.8oz) Sriracha": [
+   {
+    "name": "Sriracha",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "250g (8.8oz) Carrots, grated": [
+   {
+    "name": "Carrot",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "40g (1.4oz) Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "1 Tbsp Sesame Seeds": [
+   {
+    "name": "Sesame Seeds",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "210g (7.4oz) Uncooked Short Grain or Basmati Rice/Approx 140g Cooked Rice per serving": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "Garnish Green Onion, chopped": [
+   {
+    "name": "Green Onion / Scallion"
+   }
+  ],
+  "1 Tbsp Smoked Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "1.5 Tsp Garam Masala": [
+   {
+    "name": "Garam Masala",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "120g (4.2oz) 0% Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "270g Uncooked Penne Pasta (Or use protein pasta)": [
+   {
+    "name": "Penne",
+    "family": "mass",
+    "base": 270.0
+   }
+  ],
+  "100g (3.5oz) White Onion, thinly sliced": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "500g (17.5oz) Canned Chopped Tomatoes": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 500.0
+   }
+  ],
+  "Spice Mix: 1/2 Tsp each Smoked Paprika, Turmeric, Garam Masala, Chilli Powder, Salt, Black Pepper": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Turmeric",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Garam Masala",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "30g (1.1oz) Raw Cashew Nuts (or roasted)": [
+   {
+    "name": "Cashew Nuts",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "125g (1/2 Cup) Pasta Water": [],
+  "Garnish Coriander/Cilantro, chopped": [
+   {
+    "name": "Coriander / Cilantro"
+   }
+  ],
+  "40g (1.4oz) Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "15g (1 Tbsp) Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "3-4 Tsp Olive Oil": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 3.5
+   }
+  ],
+  "80g (2.8oz) Red Onion, finely chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "80g (2.8oz) Red Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "160g (5.7oz) 8 Slices Turkey Bacon": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 160.0
+   }
+  ],
+  "4 Large Eggs": [
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 4.0
+   }
+  ],
+  "8 Egg Whites (remove the yolk)": [
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 8.0
+   }
+  ],
+  "Garnish Parsley, Chilli Flakes": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "40g (1.4oz) 50% Fat Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "20g (0.7oz) Sriracha": [
+   {
+    "name": "Sriracha",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "600g (22oz) Raw 95% Ground/Mince Beef": [
+   {
+    "name": "Beef (any cut)",
+    "family": "mass",
+    "base": 600.0
+   }
+  ],
+  "2 Tsp Olive Oil (for cooking)": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "250g Uncooked Fusilli Pasta (or pasta of choice)": [
+   {
+    "name": "Pasta (other)",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "Garnish Fresh Parsley & Parmesan Cheese": [
+   {
+    "name": "Parmesan Cheese"
+   }
+  ],
+  "150g (5.3oz) Red Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "700g (25oz) Raw Chicken Breasts, butterflied halves": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 700.0
+   }
+  ],
+  "1 Tbsp Oregano": [
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "230g (8.1oz) Uncooked Basmati Rice/ Approx. 520g Cooked Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 230.0
+   }
+  ],
+  "400-440g (14oz-15.5oz) Water Continued": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 420.0
+   }
+  ],
+  "1 Tsp each: Salt, Paprika, Cumin, Garlic Powder, Turmeric": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Turmeric",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "75g (2.7oz) Red Onion, thinly sliced": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "75g (2.7oz) White Onion, thinly sliced": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "75g (2.7oz) Red Bell Pepper, thinly sliced": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "75g (2.7oz) Green Bell Pepper, thinly sliced": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "60g (2.1oz) 50% Fat Mayonnaise": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "4 Whole Garlic Cloves": [
+   {
+    "name": "Garlic",
+    "family": "count",
+    "base": 4.0
+   }
+  ],
+  "1/2 Tsp each Salt & Pepper": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1.5 tsp each: Salt, Cumin, Smoked Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.5
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "25g (1oz) Reduced Fat Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "200g (7oz) Uncooked Penne Pasta (or pasta of choice)": [
+   {
+    "name": "Penne",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "300g (10.6oz) 1% Milk (or any milk)": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "160g (5.7oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 160.0
+   }
+  ],
+  "1 Tsp Chipotle Chilli Flakes (omit for less heat)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "50g (1/4 Cup) Pasta Water": [],
+  "Garnish Fresh Parsley chopped": [
+   {
+    "name": "Fresh Parsley"
+   }
+  ],
+  "900g (32oz) Raw Chicken Thighs, Boneless Skinless": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "20g (1.5 Tbsp) Garlic Paste or Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "2 Tsp Mixed Herbs (Oregano, Basil, Thyme)": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "15g (1 Tbsp) Reduced Fat Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "75g (2.7oz) Red Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "75g (2.7oz) Green Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "210g Uncooked Basmati Rice/Approx 560g Cooked": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "1 Tbsp Fresh Parsley, chopped (Optional)": [
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "800g (28oz) Beef Mince": [
+   {
+    "name": "Lean Ground Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "20g (2 Tbsp) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "30g (2.5 Tbsp) Honey or Maple Syrup": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "50g Fat Free Yogurt (Greek or Skyr)": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "25g Reduced Sugar Ketchup": [
+   {
+    "name": "Reduced Sugar Ketchup",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "25g (2 Tbsp) Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "20g (1.5 Tbsp) Minced Garlic or Garlic Paste": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "1 Cup Chopped Green Onion (Green part)": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "cup",
+    "base": 1.0
+   }
+  ],
+  "1.5 Tbsp Sesame Seeds": [
+   {
+    "name": "Sesame Seeds",
+    "family": "spoon",
+    "base": 4.5
+   }
+  ],
+  "20g Light Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "25g Sriracha": [
+   {
+    "name": "Sriracha",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "Dash of Milk for desired consistency": [
+   {
+    "name": "Milk"
+   }
+  ],
+  "10g Light Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "1 Tbsp Chopped Garlic": [
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "80g Chopped White Onion": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "80g Chopped Green Onion (white part)": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "2 Whole Eggs + 2 Egg Whites (whisked)": [
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 2.0
+   },
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 2.0
+   }
+  ],
+  "200g Dry Weight / ~520g Cooked White Rice (I use basmati but you can use short grain rice)": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "15g Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "15g Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "60g Chilli Garlic Sauce": [
+   {
+    "name": "Chilli Garlic Paste",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "Good Handful Chopped Green Onion": [
+   {
+    "name": "Green Onion / Scallion"
+   }
+  ],
+  "1/2 Cup Chopped Coriander": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "cup",
+    "base": 0.5
+   }
+  ],
+  "800g (28oz) Raw Topside/ Top Sirloin, 1 inch cubed": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1.5 Tsp Smoked Paprika or Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "30g (2 Tbsp) Garlic Paste or Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "80g (3oz) White Onion, chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "15g (1 Tbsp) Garlic Cloved, chopped": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "1 Tsp each: Salt, Black Pepper, Italian Herbs, Parsley, Smoked Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "300ml (11oz) Light Evaporated Milk (or any milk)": [
+   {
+    "name": "Evaporated Milk",
+    "family": "vol",
+    "base": 300.0
+   }
+  ],
+  "210g (7.4oz) Uncooked Linguine Pasta (or pasta of choice)": [
+   {
+    "name": "Linguine",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "50g (1/4 Cup) Pasta Water (Optional for sauce consistency)": [],
+  "40g (1.5oz) Reduced Sugar BBQ Sauce": [
+   {
+    "name": "Sugar Free BBQ Sauce",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "225g (8oz) Uncooked Macaroni Pasta": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 225.0
+   }
+  ],
+  "60g (2.1oz) Buffalo Hot Sauce (or any hot sauce)": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "40g (1.4oz) Low Fat Cheddar Cheese": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "Garnish with Fresh Parsley, chopped": [
+   {
+    "name": "Fresh Parsley"
+   }
+  ],
+  "800g (28oz) Raw Chicken Breasts, butterflied halves": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1/2 tsp each: Garlic Powder, Italian Herbs, Salt, Paprika": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "250g (8.5oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "C150g (5.3oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese"
+   }
+  ],
+  "20g (1oz) Grated Parmigiano Reggiano": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "900g (32oz) Raw Potatoes, 1-inch cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "100g (3.4oz) Light Evaporated Milk": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "Additional seasoning to taste": [
+   {
+    "name": "Seasoning (other)"
+   }
+  ],
+  "900g (32oz) Raw Chicken Thighs, boneless skinless": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "20g (1.5 Tbsp) Garlic Paste": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "40g (1.4oz) Gochujang Paste": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "400g (14.1oz) Cucumbers, thinly sliced": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "10g (1 Tsp) Garlic Paste": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "15g (0.53oz) Gochujang": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "15g (0.53oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "30g (1oz) Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "1 Tsp Red Pepper Flakes or Chilli Flakes (Omit for less heat)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "200g (7oz) Uncooked Basmati Rice (≈130g or 4.6oz cooked rice per serving)": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "Garnish with Black Sesame Seeds (Optional": [
+   {
+    "name": "Sesame Seeds"
+   }
+  ],
+  "20g (0.7oz) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "15g (0.5oz) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "Big Handful Fresh Coriander/ Cilantro, chopped": [
+   {
+    "name": "Coriander / Cilantro"
+   }
+  ],
+  "100g (3.5oz) Natural Peanut Butter (without palm oil)": [
+   {
+    "name": "Peanut Butter",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "45g (1.6oz) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 45.0
+   }
+  ],
+  "30g (1.1oz) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "125-150g (4.2-5.1oz) Reserved Noodle Water (from boiled noodles)": [
+   {
+    "name": "Noodles (other)",
+    "family": "mass",
+    "base": 137.5
+   }
+  ],
+  "250g (8.8oz) Uncooked Medium Egg Noodles / 570g (20oz) Cooked": [
+   {
+    "name": "Egg Noodles",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "50g (1.8oz) Green Onion/Scallion, chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "Handful Fresh Coriander, chopped": [
+   {
+    "name": "Coriander / Cilantro"
+   }
+  ],
+  "Handful Sesame Seeds": [
+   {
+    "name": "Sesame Seeds"
+   }
+  ],
+  "1/2 Tsp Turmeric": [
+   {
+    "name": "Turmeric",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "100g (3.5oz) Low Fat Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "25g (1oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "150g (5.3oz) White Onion, thinly sliced": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "1/2 Tsp each: Salt, Garam Masala, Paprika, Turmeric": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Garam Masala",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Turmeric",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "60g (2.1oz) Cashew Nuts (Raw preferably)": [
+   {
+    "name": "Cashew Nuts",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "600g (21oz) Canned Tomatoes (or fresh chopped tomatoes)": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 600.0
+   }
+  ],
+  "60g (2.1oz) Light Evaporated Milk": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "20g (1oz) Reduced Fat Butter (optional)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "1 Tsp Garam Masala": [
+   {
+    "name": "Garam Masala",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "50g (1.8oz) Low Fat Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "20-25ml (0.7-0.9oz) Any Milk (adjust to desired consistency)": [
+   {
+    "name": "Milk",
+    "family": "vol",
+    "base": 22.5
+   }
+  ],
+  "1 Tsp each: Salt, Black Pepper, Garlic Powder, Onion Powder, Paprika, Oregano, Cumin": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1/2 or 1 Tsp Chilli Powder": [
+   {
+    "name": "Chilli Powder",
+    "family": "count",
+    "base": 0.5
+   }
+  ],
+  "30g (1.1oz) Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "30g (1.1oz) Chopped Pickled Jalapeños": [
+   {
+    "name": "Fresh Chilli",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "30g (1.1oz) Jalapeño Juice": [
+   {
+    "name": "Fresh Chilli",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "900g Raw Potatoes, cut into thin fries": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "1 Serving Taco Seasoning Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "2 Tsp Olive Oill": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "180g (6.4oz) Light Evaporated Milk": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 180.0
+   }
+  ],
+  "5x20g Slices (100g/3.5oz) American Cheese Slices": [
+   {
+    "name": "Cheese (other)"
+   }
+  ],
+  "50g (1.8oz) Light Cheddar or Sharp Cheddar": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "20g (1oz) Jalapeño Juice (Optional)": [
+   {
+    "name": "Fresh Chilli",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "150g (5.3oz) Green Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "200g (7.1oz) Avocados, cubed": [
+   {
+    "name": "Avocado",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "25g (1oz) Fresh Coriander, chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "15g (0.5oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "800g Raw Chicken Thighs boneless skinless": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "800g Raw White Potatoes peeled and diced into 1 inch chuncks": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "20g Room Temperature Light Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "125ml (1/2 Cup) Warm Skimmed Milk": [
+   {
+    "name": "Milk",
+    "family": "vol",
+    "base": 125.0
+   }
+  ],
+  "1.5 Tsp Salt or to taste": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "10g Light Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "3/4 Tsp Each Salt, Italian Herbs, Chilli Flakes, Garlic, Onion Powder, Parsley, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.75
+   },
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 0.75
+   },
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 0.75
+   },
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 0.75
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 0.75
+   },
+   {
+    "name": "Fresh Parsley",
+    "family": "spoon",
+    "base": 0.75
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "250ml (1 Cup) Skimmed Milk": [
+   {
+    "name": "Milk",
+    "family": "vol",
+    "base": 250.0
+   }
+  ],
+  "40g Grated Parmigiano Cheese": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "Good Handful Chopped Spinach": [
+   {
+    "name": "Spinach"
+   }
+  ],
+  "800g (28oz) Raw Chicken Breast, 1/2‑inch cubed": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "Handful Fresh Coriander/ Cilantro, chopped": [
+   {
+    "name": "Coriander / Cilantro"
+   }
+  ],
+  "50g (1.8oz) Harissa or Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "20-25g (1oz) Water": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 22.5
+   }
+  ],
+  "210g (7.4oz) Uncooked Basmati Rice / ≈560g Cooked": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "1/2 Tsp Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "(Optional) Drizzle of Sriracha when serving": [
+   {
+    "name": "Sriracha"
+   }
+  ],
+  "200g (7oz) Shredded Lettuce": [
+   {
+    "name": "Lettuce",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "250g (8.8oz) Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "200g (7oz) Cucumbers, chopped": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "Dash of Chilli Flakes (Optional)": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "750g (27oz) Raw Chicken Breast, 1/2‑inch cubed": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 750.0
+   }
+  ],
+  "100g (3.5oz) Buffalo Hot Sauce": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "150g (5.3oz) Buffalo Hot Sauce": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "800g (28oz) Raw White Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "2 Tsp Olive Oil (or cooking spray)": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "150g (5.3oz) Fresh Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "100g (3.5oz) Red Onion Finely, chopped": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Cucumber, deseeded and chopped": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "50g (1.8oz) Green Onion/ Scallion, chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "1/2 Tsp each: Salt, Black Pepper, Garlic Powder, Cumin": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1000g Raw Chicken Breast cut into cubes": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 1000.0
+   }
+  ],
+  "1 Tbsp (30g) Minced Garlic or Garlic Paste": [
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "2 Tsp Mixed Herbs (Oregano, Parsley, Basil)": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "1.5 Tsp Chilli Flakes (Optional if you don't like spicy)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "20g Light Butter For Cooking": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "160g Garlic & Herb Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 160.0
+   }
+  ],
+  "80g Shredded Mozzarella or any Low Fat Cheese": [
+   {
+    "name": "Mozzarella Cheese",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "1100g Raw Yellow or White Potatoes cut into small cubes": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 1100.0
+   }
+  ],
+  "1.5 Tsp Mixed Herbs": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "(Optional) 2 Tsp Olive Oill": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "900g (32oz) Raw Topside/Top Sirloin Beef, 1-inch cubed": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "Flaky Salt to Garnish": [
+   {
+    "name": "Salt"
+   }
+  ],
+  "850g (31oz) Raw White Potatoes, peeled 2-inch chunks": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 850.0
+   }
+  ],
+  "150g (5.3oz) Light Evaporated Milk": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "100g (3.5oz) Shredded Mozzarella Cheese": [
+   {
+    "name": "Mozzarella Cheese",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "900g (32oz) Raw Potatoes, cut into fries": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "2 Servings Butter Chicken Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 2.0
+   }
+  ],
+  "120g (4.2oz) Fat Free Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "20g (1oz) Grass Fed Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "1/2 Tsp Chilli Powder": [
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "20g (1oz) Grass Fed Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "1 Serving Butter Chicken Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "40g (1.4oz) Cashew Nuts": [
+   {
+    "name": "Cashew Nuts",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "400g (14oz) Fresh Tomatoes, chopped (or 400g canned tomatoes)": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "100g (3.5oz) Fat Free Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "1 Tsp Cinnamon": [
+   {
+    "name": "Cinnamon",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Nutmeg": [
+   {
+    "name": "Nutmeg",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Ginger Powder": [
+   {
+    "name": "Ginger",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "800g (28oz) Lean Sirloin Beef, thinly sliced": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "2 Servings Shawarma Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 2.0
+   }
+  ],
+  "Juice of 1 Lemon Continued": [
+   {
+    "name": "Lemon"
+   }
+  ],
+  "240g (8.5oz) Uncooked Macaroni / 560g Cooked Weight": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 240.0
+   }
+  ],
+  "1 Serving Shawarma Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "250g (8.8oz) Light Evaporated Milk": [
+   {
+    "name": "Evaporated Milk",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "40g (1.4oz) Light Cheddar": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "60g (1/4 Cup) Pasta Water": [],
+  "1 Tbsp Sumac Powder": [
+   {
+    "name": "Sumac",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "800g (28oz) Raw Boneless Skinless Chicken Thighs": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1.5 Servings Peri Peri Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.5
+   }
+  ],
+  "100g (3.5oz) Nando's Marinade": [
+   {
+    "name": "Peri Peri / Nando's Marinade",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "80g (2.8oz) Nando's Hot Sauce": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "1/2 Tsp Smoked Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "100g (3.5oz) Onion, chopped": [
+   {
+    "name": "Onion (any)",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "1 Tsp each: Salt, Cumin, Smoked Paprika, Chilli Powder, Turmeric": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Turmeric",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "50g (1.8oz) Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "210g (7.4oz) Uncooked Basmati Rice/560g Cooked": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "800g (28oz) Raw Topside/Top Sirloin Beef, thinly sliced": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1 Tsp Baking Soda (tenderises beef)": [
+   {
+    "name": "Baking Soda",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "25g (1.1oz) Cornflour/Cornstarch (makes it crispy)": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "20g (1oz) Reduced Fat Butter (For Cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "150g (5.3oz) Red Bell Pepper, thinly sliced": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "150g (5.3oz) Green Bell Pepper, thinly sliced": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "200g (7oz) Beef Broth": [
+   {
+    "name": "Chicken Stock",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "30g (1.2oz) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "25g (1.1oz) Hoisin Sauce": [
+   {
+    "name": "Hoisin Sauce",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "10g (1 Tsp) Cornflour/Cornstarch": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "50g (3.5 Tbsp) Garlic Cloves, chopped": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "200g (7oz) Uncooked White Rice/540g Cooked Leftover Rice (basmati or jasmine)": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "1 Tsp Red Pepper Flakes to garnish": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "800g (28oz) Raw 95% Ground/Minced Beef": [
+   {
+    "name": "Lean Ground Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "30g (2 Tbsp) Garlic Cloves, chopped": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "20g (1.5 Tbsp) Fresh Ginger, chopped": [
+   {
+    "name": "Ginger",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "220g (7.8oz) Medium Egg Noodles (Dry Weight)": [
+   {
+    "name": "Egg Noodles",
+    "family": "mass",
+    "base": 220.0
+   }
+  ],
+  "Garnish Green Onion & Sesame Seeds": [
+   {
+    "name": "Green Onion / Scallion"
+   }
+  ],
+  "50g (1.8oz) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "30g (1.2oz) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "35g (1.3oz) Reduced Sugar Sweet Chilli Sauce": [
+   {
+    "name": "Sugar / Sweetener",
+    "family": "mass",
+    "base": 35.0
+   }
+  ],
+  "25g (1.1oz) Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "60g (2.1oz) Chilli Garlic Sauce": [
+   {
+    "name": "Chilli Garlic Paste",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "1 Tsp Red Pepper Flakes": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp Sesame Seeds": [
+   {
+    "name": "Sesame Seeds",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "20g (1oz) Water": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "100g (3.5oz) Celery, finely chopped": [
+   {
+    "name": "Celery",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "25g (1.1oz) Reduced Fat Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "150g (5.3oz) Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "1 Tsp Paprika Continued": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "600g (21oz) Canned Chopped Tomatoes": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 600.0
+   }
+  ],
+  "40g (1.4oz) Shredded Mozzarella": [
+   {
+    "name": "Mozzarella Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "Optional Garnish with Parsley": [
+   {
+    "name": "Fresh Parsley"
+   }
+  ],
+  "800g (28oz) Raw Argentinian Shrimp (or any shrimp)": [
+   {
+    "name": "Shrimp",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "15g (1 Tbsp) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "15g (0.7oz) Reduced Fat Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "25g (1oz) Ketchup": [
+   {
+    "name": "Reduced Sugar Ketchup",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "80g (2.8oz) Green Onion/scallion, chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "100g (3.5oz) Frozen Carrots": [
+   {
+    "name": "Carrot",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Frozen Peas": [
+   {
+    "name": "Peas",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "4 Whole Eggs": [
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 4.0
+   }
+  ],
+  "200g (7oz) Uncooked White Rice/540g Cooked (leftover preferably)": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "15g (1 Tbsp) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "30g (2 Tbsp) Oyster Sauce": [
+   {
+    "name": "Oyster Sauce",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "15g (0.7oz) Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "2.5 Tsp Oregano": [
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 2.5
+   }
+  ],
+  "600g (21oz) Raw Broccoli, chopped florets": [
+   {
+    "name": "Broccoli",
+    "family": "mass",
+    "base": 600.0
+   }
+  ],
+  "1 Tsp Salt Continued": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1.5 Tsp Black Pepper 40g (1.4oz) Grated Parmigiano Reggiano": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "5 Whole Garlic Cloves (to roast for the white sauce)": [
+   {
+    "name": "Garlic",
+    "family": "count",
+    "base": 5.0
+   }
+  ],
+  "Handful Walnuts, crushed": [
+   {
+    "name": "Walnuts"
+   }
+  ],
+  "5 Roasted Garlic Cloves": [
+   {
+    "name": "Garlic",
+    "family": "count",
+    "base": 5.0
+   }
+  ],
+  "80g (2.8oz) Light Feta Cheese": [
+   {
+    "name": "Cheese (other)",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "800g (28oz) Raw Argentinian Shrimp": [
+   {
+    "name": "Shrimp",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "40g (1.4oz) Reduced Fat Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "Extra Juice of 1/2 Lemon": [
+   {
+    "name": "Lemon"
+   }
+  ],
+  "3/4 Tsp Paprika": [
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "3/4 Tsp Chilli Flakes": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 0.75
+   }
+  ],
+  "25g (1oz) Pasta Water": [],
+  "Handful Spinach": [
+   {
+    "name": "Spinach"
+   }
+  ],
+  "230g (8.1oz) Uncooked Linguine Pasta (or pasta of choice)": [
+   {
+    "name": "Linguine",
+    "family": "mass",
+    "base": 230.0
+   }
+  ],
+  "100g (3.5oz) Natural Yogurt (or any yogurt)": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "1.5 Serving Tikka Masala Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.5
+   }
+  ],
+  "20g (1.5 Tbsp) Fresh Ginger Paste": [
+   {
+    "name": "Ginger",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "210g (7.4oz) Uncooked Basmati Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "150g Mixed Vegetables (Frozen or Fresh Carrot, Sweetcorn, Green Beans and Peas)": [
+   {
+    "name": "Mixed Vegetables",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "1 Tbsp Cumin Seeds": [
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "80g (2.8oz) White Onions, finely chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "1 Serving Tikka Masala Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "400g (14oz) Canned or Fresh Blended Tomatoes": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "120-140g (4.2oz-5oz)50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 130.0
+   }
+  ],
+  "15-20g (1oz) Water or Milk (if too thick)": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 17.5
+   }
+  ],
+  "Fresh Coriander/Cilantro for Garnish": [
+   {
+    "name": "Coriander / Cilantro"
+   }
+  ],
+  "800g (28oz) Raw Sweet Potatoes, cubed small": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "80g (2.8OZ) Reduced Sugar Ketchup": [
+   {
+    "name": "Reduced Sugar Ketchup",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "30g (1.1oz) Yellow Mustard": [
+   {
+    "name": "Mustard",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "1/2 Tsp Black Pepper Continued": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "15-20g (1oz) Pickle Juice": [
+   {
+    "name": "Pickles / Gherkins",
+    "family": "mass",
+    "base": 17.5
+   }
+  ],
+  "800g (28oz) 95% Ground/Minced Beef": [
+   {
+    "name": "Lean Ground Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "80g (2.8oz) Light Cheddar Cheese (or any cheese)": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "1 Whole Iceberg Lettuce, thinly sliced": [
+   {
+    "name": "Lettuce",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "200 (7oz) Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "count",
+    "base": 200.0
+   }
+  ],
+  "100g (3.5oz) Pickled Gherkins, chopped": [
+   {
+    "name": "Pickles / Gherkins",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "800g (28oz) Topside/Top Sirloin Beef, 1 inch cubed": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "2 Tsp Himalayan Pink Salt": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "15-20g (1oz) Grass Fed Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 17.5
+   }
+  ],
+  "100g (3.5oz) Natural Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "50g (1.8oz) 50% Fat Mayo": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "50g (1.8oz) Chipotle Chilli Paste": [
+   {
+    "name": "Chipotle Paste",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "700g (25oz) Raw Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 700.0
+   }
+  ],
+  "1 Tsp Himalayan Pink Salt": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "Optional 2 Tsp Olive Oil (or cooking spray)": [
+   {
+    "name": "Olive Oil"
+   }
+  ],
+  "8 Whole Eggs (pasture raised preferably)": [
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 8.0
+   }
+  ],
+  "Pinch of Salt & Black Pepper": [
+   {
+    "name": "Black Pepper"
+   }
+  ],
+  "1 Tsp Coriander Powder": [
+   {
+    "name": "Coriander Powder",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "700g (25oz) Raw Potatoes, cut into fries": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 700.0
+   }
+  ],
+  "200g (7oz) Plain Fat Free Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "100g (3.5oz) Grated Cucumber": [
+   {
+    "name": "Cucumber",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "400g (14oz) Raw Chicken Breast": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "400g (14oz) Raw Boneless Skinless Chicken Thighs": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "1.5 Serving Gyros Spice Mix": [
+   {
+    "name": "Seasoning (other)",
+    "family": "count",
+    "base": 1.5
+   }
+  ],
+  "Juice of 1 Lemon Juice": [
+   {
+    "name": "Lemon"
+   }
+  ],
+  "1 Tsp Lemon Zest": [
+   {
+    "name": "Lemon",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "180g (6.4oz) Plain Flour": [
+   {
+    "name": "Plain Flour",
+    "family": "mass",
+    "base": 180.0
+   }
+  ],
+  "200g (7oz) Fat Free Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "1 Tsp Baking Powder": [
+   {
+    "name": "Baking Powder",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "Shredded Lettuce": [
+   {
+    "name": "Lettuce"
+   }
+  ],
+  "Chopped Tomatoes": [
+   {
+    "name": "Tomato"
+   }
+  ],
+  "Thinly Sliced Red Onion": [
+   {
+    "name": "Red Onion"
+   }
+  ],
+  "30g (1.1oz) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "30g (1.1oz) Oyster Sauce": [
+   {
+    "name": "Oyster Sauce",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "1 Tsp Baking Soda (tenderiser)": [
+   {
+    "name": "Baking Soda",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "150g (5.3oz) Scallion/Green Onion (white part)": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "80g (2.8oz) Scallion/Green Onion (green part)": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "4 Whole Eggs (separate egg yolks from egg whites)": [
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 4.0
+   }
+  ],
+  "560g (20oz) Day Old Cooked White Rice": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 560.0
+   }
+  ],
+  "15g (0.7oz) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "Sriracha Drizzle when serving": [
+   {
+    "name": "Sriracha"
+   }
+  ],
+  "700g (25oz) Raw Topside/Top Sirloin Beef, cut into thin strips": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 700.0
+   }
+  ],
+  "1/2 Tsp Baking Soda (beef tenderiser)": [
+   {
+    "name": "Baking Soda",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "20g (1oz) Cornflour/Cornstarch (for crispiness)": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "220g (8oz) Uncooked Egg Noodles Continued": [
+   {
+    "name": "Egg Noodles",
+    "family": "mass",
+    "base": 220.0
+   }
+  ],
+  "100g (3.5oz) Green Onion/Scallion, white part": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "80g (3oz) Green Onion/Scallion, green part": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "100g (3.5oz) Red Onion, thinly sliced": [
+   {
+    "name": "Red Onion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "50g (1.8oz) Oyster Sauce": [
+   {
+    "name": "Oyster Sauce",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "125g (1/2 Cup) Water": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 125.0
+   }
+  ],
+  "5-10g (1-2 Tsp) Cornflour/Cornstarch Mixed with 15g Water": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 7.5
+   }
+  ],
+  "Garnish with Chilli Flakes & Sesame Seeds": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "30g (1.1oz) Corn Flour/Cornstarch": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "50g (1.8oz) Water": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "25g (1oz) Honey Continued": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "20g (0.7oz) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "15g (1 Tbsp) Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "1 Tsp Chilli Flakes (omit for no spice)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "210g (7.4oz) Uncooked White Rice/560g Cooked Rice (140g per serving)": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "800g (28oz) Raw Chicken Breast, medium cubed": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "20g (1.5 Tbsp) Tbsp Ginger Paste": [
+   {
+    "name": "Ginger",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "2 Tsp Garam Masala": [
+   {
+    "name": "Garam Masala",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "1 tsp Garam Masala": [
+   {
+    "name": "Garam Masala",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1/2 tsp Salt or to taste": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "2 Tbsp Fresh Coriander/Cilantro, chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "1 Lemon, thinly sliced": [
+   {
+    "name": "Lemon",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "125g (1/2 Cup) Saffron Infused Water": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 125.0
+   }
+  ],
+  "800g (28oz) Raw Skinless Salmon Fillets (200g each)": [
+   {
+    "name": "Salmon",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "15g (1 Tbsp) Garlic Cloves, finely chopped": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "20g (1oz) Chilli Garlic Paste": [
+   {
+    "name": "Chilli Garlic Paste",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "500g (18oz) Light Coconut Milk": [
+   {
+    "name": "Coconut Milk",
+    "family": "mass",
+    "base": 500.0
+   }
+  ],
+  "220g (8oz) Uncooked Medium Egg Noodles": [
+   {
+    "name": "Egg Noodles",
+    "family": "mass",
+    "base": 220.0
+   }
+  ],
+  "80g (3oz) Green Onion/Scallion, chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "20g (1oz) Ligh Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "45g (1.6oz) Cornflour/Corn Starch (optional)": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 45.0
+   }
+  ],
+  "25g (1oz) Chilli Garlic Sauce": [
+   {
+    "name": "Chilli Garlic Paste",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "20g (1oz) Sriracha": [
+   {
+    "name": "Sriracha",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "30g (1.1oz) Reduced Sugar Sweet Chilli Sauce": [
+   {
+    "name": "Sugar / Sweetener",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "800g (28oz) Uncooked Potatoes, cut into fries": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "2 Tsp Olive Oil or Cooking Spray": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "40g (1.4oz) Green Onion, chopped": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "2 Tsp Sesame Seeds": [
+   {
+    "name": "Sesame Seeds",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "40g (1.4oz) Cornflour/Corn Starch (optional)": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "300g (10.6oz) Orange Juice (fresh juice preferably)": [
+   {
+    "name": "Orange (juice/zest)",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "20g (1oz) Light Soy Sauce Continued": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "10g (2 Tsp) Corn Flour": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "15g (1 Tbsp) Ginger, finely chopped": [
+   {
+    "name": "Ginger",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "1 Tsp Orange Zest (Optional)": [
+   {
+    "name": "Orange (juice/zest)",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "220g (8oz) Uncooked Egg Noodles": [
+   {
+    "name": "Egg Noodles",
+    "family": "mass",
+    "base": 220.0
+   }
+  ],
+  "Sprinkle Chilli Flakes (omit for less heat)": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "800g (28oz) Raw Topside/Top Sirloin Beef, cubed": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "2 Tsp Himalayan Salt": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "2 Tsp Mixed Herbs (Parsley, Oregano, Thyme, Rosemary)": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "100g (3.5oz) Chestnut Mushrooms, finely chopped": [
+   {
+    "name": "Mushrooms",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Cherry Tomatoes, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "40g (1.4oz) Parmigiano Reggiano": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "30g (1.1oz) Light Cheddar (to top the dish)": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "Garnish Chilli Flakes & Fresh Parsley": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "800g (28oz) Raw Chicken Breast, cut into thin strips": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "30g Reduced Fat Butter": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "400g (14oz) Tomatoes, chopped or 400g canned tomatoes": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "120g (4.2oz) Low Fat Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "1 Tsp Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "1 Tsp each: Salt, Paprika, Turmeric": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Turmeric",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "150g (5.3oz) Tomato, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "1/2 Tsp each: Salt, Pepper, Garlic Powder": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "700g (25oz) Raw Chicken Breast, butterflied halves": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 700.0
+   }
+  ],
+  "1.5 Tsp Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.5
+   }
+  ],
+  "230g (8.1oz) Uncooked Spaghetti Pasta": [
+   {
+    "name": "Spaghetti",
+    "family": "mass",
+    "base": 230.0
+   }
+  ],
+  "80g (3oz) White Onion, finely chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "1 Tsp each: Italian Herbs, Salt, Black Pepper": [
+   {
+    "name": "Italian / Mixed Herbs",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "50-70g (1/4 Cup) Pasta Water": [],
+  "Garnish Fresh Parsley": [
+   {
+    "name": "Fresh Parsley"
+   }
+  ],
+  "700g (25oz) Raw Chicken Breast, cut into thin strips": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 700.0
+   }
+  ],
+  "220g (7.8oz) Uncooked Egg Noodles (or noodles of choice)": [
+   {
+    "name": "Egg Noodles",
+    "family": "mass",
+    "base": 220.0
+   }
+  ],
+  "220g Uncooked Egg Noodles (Brand: Asia's Specialties)": [
+   {
+    "name": "Egg Noodles",
+    "family": "mass",
+    "base": 220.0
+   }
+  ],
+  "1 tbsp Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "1 Medium Red Onion Sliced": [
+   {
+    "name": "Red Onion",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "1 Medium Red Bell Pepper Sliced": [
+   {
+    "name": "Bell Pepper",
+    "family": "count",
+    "base": 1.0
+   }
+  ],
+  "1 cup Chopped Green Onion": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "cup",
+    "base": 1.0
+   }
+  ],
+  "1 cup Bean Sprouts": [
+   {
+    "name": "Bean Sprouts",
+    "family": "cup",
+    "base": 1.0
+   }
+  ],
+  "50ml Low Sodium Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "vol",
+    "base": 50.0
+   }
+  ],
+  "50-60g Oyster Sauce (Brand: M&S)": [
+   {
+    "name": "Oyster Sauce",
+    "family": "mass",
+    "base": 55.0
+   }
+  ],
+  "(Optional) 10ml Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "vol",
+    "base": 10.0
+   }
+  ],
+  "Garnish Sesame Seeds + Chilli Flakes": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "800g (28oz) Raw Topside/Top Sirloin Beef 1 Inch Thick Steaks": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "140g (5oz) Avocado": [
+   {
+    "name": "Avocado",
+    "family": "mass",
+    "base": 140.0
+   }
+  ],
+  "1/2 Tsp each: Garlic Powder, Salt, Black Pepper": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "200g (7oz) Tomato, chopped": [
+   {
+    "name": "Tomato",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "2 Tbsp Coriander/Cilantro, chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 6.0
+   }
+  ],
+  "210g (7.4oz) Uncooked Basmati Rice (or rice of choice)": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "1 Tbsp Coriander/Cilantro, chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "Black Beans": [
+   {
+    "name": "Black Beans"
+   }
+  ],
+  "Sweetcorn": [
+   {
+    "name": "Corn"
+   }
+  ],
+  "Shredded Mozzarella or Cheddar Cheese": [
+   {
+    "name": "Mozzarella Cheese"
+   }
+  ],
+  "800g (28oz) 95% Raw Ground/Minced Beef": [
+   {
+    "name": "Lean Ground Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "60g (2.1oz) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "30g (1.1oz) Gochujang Paste": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "150g (5.3oz) Carrot, grated": [
+   {
+    "name": "Carrot",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "200g (7oz) Uncooked White Rice or 530g Leftover Cooked Rice": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "20g (1oz) Gochujang": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "2 Tsp Rice Vinegar": [
+   {
+    "name": "Rice Vinegar",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "30g (1.1oz) Hot Sauce": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "2 Eggs, whisked": [
+   {
+    "name": "Eggs",
+    "family": "count",
+    "base": 2.0
+   }
+  ],
+  "90g (3.2oz) Crushed Cornflakes": [
+   {
+    "name": "Breadcrumbs / Panko",
+    "family": "mass",
+    "base": 90.0
+   }
+  ],
+  "1/2 Tsp each: Garlic Powder, Onion Powder, Smoked Paprika, Salt, Black Pepper": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "350g (12.4oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 350.0
+   }
+  ],
+  "60g (2.1oz) Low Fat Cheddar Cheese": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "25g (1oz) Hot Sauce": [
+   {
+    "name": "Buffalo Sauce",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "900g (32oz) Raw Topside/Top Sirloin Beef, cut into thin strips": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "1 Tbsp Minced Garlic": [
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "15g (1 Tbsp) Garlic Cloves": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "20g (1.5 Tbsp) Gochujang Paste": [
+   {
+    "name": "Gochujang Paste",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "150g (5.3oz) Grated Carrots": [
+   {
+    "name": "Carrot",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "210g (7.4oz) Uncooked Jasmine Rice/≈560g Cooked": [
+   {
+    "name": "Jasmine Rice",
+    "family": "mass",
+    "base": 210.0
+   }
+  ],
+  "100g (3.5oz) Chopped Kimchi": [
+   {
+    "name": "Kimchi",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "30g (2 Tbsp) Kimchi Juice": [
+   {
+    "name": "Kimchi",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "50g Green Onion, chopped (green part)": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "30g (1.1oz) Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "800g (28oz) Raw Topside Beef, thin strips": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "25g (1oz) Reduced Fat Butter (for Cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 25.0
+   }
+  ],
+  "150-180g (5.3oz-6.4oz) 50% Fat Cream Cheese": [
+   {
+    "name": "Cream Cheese",
+    "family": "mass",
+    "base": 165.0
+   }
+  ],
+  "40g (1.4oz) Grated Parmesan": [
+   {
+    "name": "Parmesan Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "1/2 Tsp each Salt, Black Pepper": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "Big Handful Spinach": [
+   {
+    "name": "Spinach"
+   }
+  ],
+  "540g (19oz) Cooked White Rice (135g per Serving)": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 540.0
+   }
+  ],
+  "Season with Mixed Herbs, Salt, Chilli Flakes": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "100g (3.5oz) Black Beans": [
+   {
+    "name": "Black Beans",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "400g (14oz) Canned Tomatoes (or fresh chopped)": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "1 Tsp each: Oregano, Garlic Powder, Paprika, Cumin, Chilli Powder, Salt, Black Pepper": [
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Cumin",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Chilli Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "310g (11oz) Water (or chicken stock, extra flavour)": [
+   {
+    "name": "Water",
+    "family": "mass",
+    "base": 310.0
+   }
+  ],
+  "1 Tbsp Fresh Coriander/Cilantro, chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "spoon",
+    "base": 3.0
+   }
+  ],
+  "400g (14oz) Raw Chicken Thighs, skinless fat trimmed": [
+   {
+    "name": "Chicken Thighs",
+    "family": "mass",
+    "base": 400.0
+   }
+  ],
+  "2 Tsp Pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "100g (3.5oz) Nando's Medium Peri Peri Marinade": [
+   {
+    "name": "Peri Peri / Nando's Marinade",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "240g Uncooked/540g Cooked Macaroni": [
+   {
+    "name": "Macaroni Pasta",
+    "family": "mass",
+    "base": 240.0
+   }
+  ],
+  "300g (10.5oz) 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "40g (1.4oz) Low Fat Cheddar": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "1 Tsp each: Salt, Black Pepper, Onion Powder, Oregano, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "50g (1.8oz) Peri Peri Medium Hot Sauce": [
+   {
+    "name": "Seasoning (other)",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "70g (1/4 Cup) Pasta Water": [],
+  "900g (32oz) Raw Chicken Breast, butterflied halves": [
+   {
+    "name": "Chicken Breast",
+    "family": "mass",
+    "base": 900.0
+   }
+  ],
+  "60g (2.1oz) Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "800g (28oz) Raw Potatoes, cut into fries": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1 Tsp each: Salt, Black Pepper, Oregano, Paprika": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "200g Low Fat Greek Yogurt": [
+   {
+    "name": "Yogurt",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "75g Light Mayonnaise": [
+   {
+    "name": "Light Mayo",
+    "family": "mass",
+    "base": 75.0
+   }
+  ],
+  "1-2 minced Garlic Cloves": [
+   {
+    "name": "Garlic",
+    "family": "count",
+    "base": 1.5
+   }
+  ],
+  "1/2 tsp salt, pepper": [
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "1/2 Lemon Juice": [
+   {
+    "name": "Lemon",
+    "family": "count",
+    "base": 0.5
+   }
+  ],
+  "Thinly cut Cabbage": [
+   {
+    "name": "Cabbage"
+   }
+  ],
+  "Grated Carrots": [
+   {
+    "name": "Carrot"
+   }
+  ],
+  "Thinly sliced Red Onion": [
+   {
+    "name": "Red Onion"
+   }
+  ],
+  "Lemon Juice and Salt": [
+   {
+    "name": "Lemon"
+   }
+  ],
+  "Pickles": [
+   {
+    "name": "Pickles / Gherkins"
+   }
+  ],
+  "40g (1.4oz) Cornflour/Cornstarch": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "350g (12.4oz) Orange Juice, freshly squeezed": [
+   {
+    "name": "Orange (juice/zest)",
+    "family": "mass",
+    "base": 350.0
+   }
+  ],
+  "1/2 or 1 Tsp Chilli Flakes (omit for less heat)": [
+   {
+    "name": "Chilli Flakes",
+    "family": "count",
+    "base": 0.5
+   }
+  ],
+  "15g (1 Tbsp) Ginger, chopped": [
+   {
+    "name": "Ginger",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "1 Tsp Orange Zest (optional)": [
+   {
+    "name": "Orange (juice/zest)",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "200g (7oz) Uncooked White Rice": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "Garnish Orange Slices": [
+   {
+    "name": "Orange (juice/zest)"
+   }
+  ],
+  "Garnish Green Onion/Scallion": [
+   {
+    "name": "Green Onion / Scallion"
+   }
+  ],
+  "700g (25oz) Raw Topside/Top Sirloin Beef, cut into steaks": [
+   {
+    "name": "Topside / Top Sirloin Beef",
+    "family": "mass",
+    "base": 700.0
+   }
+  ],
+  "20g Reduced Fat Butter (for cooking)": [
+   {
+    "name": "Reduced Fat Butter",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "300g 1% Milk": [
+   {
+    "name": "Milk",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "1 Tsp each: Garlic Powder, Oregano, Salt, Chilli Flakes": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Oregano",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 1.0
+   },
+   {
+    "name": "Chilli Flakes",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "80g (1/3 Cup) Pasta Water": [],
+  "243g (8.6oz) Uncooked Penne Pasta/540g (19oz) Cooked Pasta": [
+   {
+    "name": "Penne",
+    "family": "mass",
+    "base": 243.0
+   }
+  ],
+  "100g (3.5oz) Red Bell Pepper, thinly sliced": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Green Bell Pepper, thinly sliced": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "Extra Salt and Seasoning, to taste if needed": [
+   {
+    "name": "Seasoning (other)"
+   }
+  ],
+  "800 (28oz) Raw Chicken Breast, cubed": [
+   {
+    "name": "Chicken Breast",
+    "family": "count",
+    "base": 800.0
+   }
+  ],
+  "200g (7oz) Uncooked White Rice/540g (19oz) Cooked Rice": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "10g (2 Tsp) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "10g (2 Tsp) Dark Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 10.0
+   }
+  ],
+  "15g (1 Tbsp) Honey": [
+   {
+    "name": "Honey",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "2 Tsp Sesame Oil": [
+   {
+    "name": "Olive Oil",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "20g (1.5 Tbsp) Light Soy Sauce": [
+   {
+    "name": "Light Soy Sauce",
+    "family": "mass",
+    "base": 20.0
+   }
+  ],
+  "40g (1.4oz) Tamarind Paste": [
+   {
+    "name": "Tamarind Paste",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "5g (1 Tsp) Fish Sauce": [
+   {
+    "name": "Fish Sauce",
+    "family": "mass",
+    "base": 5.0
+   }
+  ],
+  "15-20g (1oz) Sriracha": [
+   {
+    "name": "Sriracha",
+    "family": "mass",
+    "base": 17.5
+   }
+  ],
+  "30g (2 Tbsp) Garlic Cloves, finely chopped": [
+   {
+    "name": "Garlic",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "120g (4.2oz) White Onion, finely hopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 120.0
+   }
+  ],
+  "100g (3.5oz) Green Onion, chopped (white part)": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "150g (5.3oz) Uncooked Rice Noodles (3.5 nests)": [
+   {
+    "name": "Rice Noodles",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "80g (2.8oz) Green Onion, roughly chopped (green part)": [
+   {
+    "name": "Green Onion / Scallion",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "80g (2.8oz) Bean Sprouts": [
+   {
+    "name": "Bean Sprouts",
+    "family": "mass",
+    "base": 80.0
+   }
+  ],
+  "30g (1.1oz) Crushed Peanuts": [
+   {
+    "name": "Peanuts",
+    "family": "mass",
+    "base": 30.0
+   }
+  ],
+  "Garnish Chilli Flakes": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "Squeeze of Lime Juice to finish": [
+   {
+    "name": "Lime"
+   }
+  ],
+  "800g (28oz) Raw Sweet Potatoes, cubed": [
+   {
+    "name": "White Potatoes",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "40g (1.4oz) Light Cheddar Cheese (or mozzarella)": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "Garnish Fresh Parsley & Chilli Flakes": [
+   {
+    "name": "Chilli Flakes"
+   }
+  ],
+  "All Purpose Seasoning:": [
+   {
+    "name": "Seasoning (other)"
+   }
+  ],
+  "15g (2 Tsp) Cornflour/Corn Starch": [
+   {
+    "name": "Corn Flour / Cornstarch",
+    "family": "mass",
+    "base": 15.0
+   }
+  ],
+  "40g (1.4oz) Fresh or Frozen Peas": [
+   {
+    "name": "Peas",
+    "family": "mass",
+    "base": 40.0
+   }
+  ],
+  "50g (1.8oz) Bean Sprouts": [
+   {
+    "name": "Bean Sprouts",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "200g (7oz) Uncooked White Rice/500g (17.5oz) Cooked Rice (leftover/day old rice is best)": [
+   {
+    "name": "White Rice (other)",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "2 Tsp Onion": [
+   {
+    "name": "Onion (any)",
+    "family": "spoon",
+    "base": 2.0
+   }
+  ],
+  "1/2 Tsp each: Salt, Garlic and Onion Powder": [
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Garlic",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Onion Powder",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "70g (2.5oz) Low Fat Cheddar or Mozzarella": [
+   {
+    "name": "Mozzarella Cheese",
+    "family": "mass",
+    "base": 70.0
+   }
+  ],
+  "Garnish Red Onion, chopped": [
+   {
+    "name": "Red Onion"
+   }
+  ],
+  "Tomatoes, chopped": [
+   {
+    "name": "Tomato"
+   }
+  ],
+  "Fresh Cilantro/Coriander, chopped": [
+   {
+    "name": "Coriander / Cilantro"
+   }
+  ],
+  "Jalapenos, chopped": [
+   {
+    "name": "Fresh Chilli"
+   }
+  ],
+  "1 Tsp Onion": [
+   {
+    "name": "Onion (any)",
+    "family": "spoon",
+    "base": 1.0
+   }
+  ],
+  "100g (3.5oz) Reduced Sugar BBQ Sauce": [
+   {
+    "name": "Sugar Free BBQ Sauce",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "60g (2.1oz) Shredded Mozzarella": [
+   {
+    "name": "Mozzarella Cheese",
+    "family": "mass",
+    "base": 60.0
+   }
+  ],
+  "800g (28oz) Canned Tomatoes": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 800.0
+   }
+  ],
+  "1/2 Tsp each: Garlic Powder, Paprika, Dried Basil, Salt, Black Pepper": [
+   {
+    "name": "Garlic Powder",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Paprika",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Dried Basil",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Salt",
+    "family": "spoon",
+    "base": 0.5
+   },
+   {
+    "name": "Black Pepper",
+    "family": "spoon",
+    "base": 0.5
+   }
+  ],
+  "200g (7oz) Uncooked Basmati Rice/540g Cooked Rice (140g per serving)": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "150g Red or White Onion, chopped": [
+   {
+    "name": "White Onion",
+    "family": "mass",
+    "base": 150.0
+   }
+  ],
+  "100g Red Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g Green Bell Pepper, chopped": [
+   {
+    "name": "Bell Pepper",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "200g (7oz) Tomato Paste": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 200.0
+   }
+  ],
+  "600g (21oz) Canned Tomatoes": [
+   {
+    "name": "Tomato Paste / Passata",
+    "family": "mass",
+    "base": 600.0
+   }
+  ],
+  "100g (3.5oz) Pickled Jalapenos, chopped": [
+   {
+    "name": "Fresh Chilli",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "100g (3.5oz) Chipotle Paste": [
+   {
+    "name": "Chipotle Paste",
+    "family": "mass",
+    "base": 100.0
+   }
+  ],
+  "300-400g (10-14oz) Beef Stock/Broth (maggi)": [
+   {
+    "name": "Chicken Stock",
+    "family": "mass",
+    "base": 350.0
+   }
+  ],
+  "300g (11oz) Red Kidney Beans (drained weight)": [
+   {
+    "name": "Red Kidney Beans",
+    "family": "mass",
+    "base": 300.0
+   }
+  ],
+  "50g (1.8oz) Cheddar Cheese, grated": [
+   {
+    "name": "Low Fat Cheddar Cheese",
+    "family": "mass",
+    "base": 50.0
+   }
+  ],
+  "Handful Green Onion Garnish": [
+   {
+    "name": "Green Onion / Scallion"
+   }
+  ],
+  "250g (8.8oz) Raw Basmati or Long Grain Rice": [
+   {
+    "name": "Basmati Rice",
+    "family": "mass",
+    "base": 250.0
+   }
+  ],
+  "20-25g (2 Tbsp) Fresh Coriander, chopped": [
+   {
+    "name": "Coriander / Cilantro",
+    "family": "mass",
+    "base": 22.5
+   }
+  ]
+ }
+}

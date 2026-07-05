@@ -1,0 +1,8 @@
+node_modules
+dist
+dist-ssr
+# source cookbook PDF (250 MB — keep out of git history)
+Meal prep.pdf
+*.local
+.DS_Store
+.vite
