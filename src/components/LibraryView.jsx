@@ -56,7 +56,6 @@ export default function LibraryView({ onOpen, onPlan }) {
         </div>
       ) : (
         <div className="empty-state">
-          <div className="empty-emoji">🍳</div>
           <h3>No meals match that.</h3>
           <p>Try loosening a filter or clearing your search.</p>
           <button className="btn btn-line" onClick={() => setFilters(initialFilters)}>Reset filters</button>

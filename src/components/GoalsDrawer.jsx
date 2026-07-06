@@ -3,7 +3,6 @@ import { computeTDEE } from '../lib/macros'
 import { RECIPES } from '../lib/recipes'
 import { useStore } from '../store'
 
-const P_EMOJI = { Chicken: '🍗', Beef: '🥩', Steak: '🥩', Salmon: '🐟', Shrimp: '🦐', Turkey: '🦃', Other: '🍽️' }
 const PRESETS = [
   ['No red meat', ['Beef', 'Steak']],
   ['Pescatarian', ['Chicken', 'Beef', 'Steak', 'Turkey', 'Other']],
@@ -27,7 +26,7 @@ function DietProfile() {
             const off = exclude.includes(k)
             return (
               <button key={k} className={'diet-chip' + (off ? ' off' : '')} onClick={() => toggleExclude(k)}>
-                <span>{P_EMOJI[k] || '🍽️'}</span>{k}<em>{n}</em>
+                {k}<em>{n}</em>
                 {off && <span className="dc-x">Hidden</span>}
               </button>
             )

@@ -12,7 +12,6 @@ export default function ShoppingView({ onGoPlanner }) {
       <section className="view view-shopping">
         <Head />
         <div className="empty-state">
-          <div className="empty-emoji">🛒</div>
           <h3>Nothing planned yet.</h3>
           <p>Add meals to your weekly planner and your grocery list appears here.</p>
           <button className="btn btn-ember" onClick={onGoPlanner}>Go to planner</button>
@@ -26,7 +25,7 @@ export default function ShoppingView({ onGoPlanner }) {
   const groups = groupByAisle(items)
 
   const copy = () => navigator.clipboard.writeText(shoppingText(items))
-    .then(() => showToast('📋', 'List copied to clipboard'), () => showToast('⚠️', 'Copy failed'))
+    .then(() => showToast('List copied to clipboard'), () => showToast('Copy failed'))
   const toggleAll = () => {
     const allOn = items.every((o) => checked[o.key])
     setAllChecked(items.map((o) => o.key), !allOn)
@@ -45,9 +44,9 @@ export default function ShoppingView({ onGoPlanner }) {
         </div>
       </div>
       <div className="shopping-cols">
-        {groups.map(({ aisle, emoji, items: list }) => (
+        {groups.map(({ aisle, items: list }) => (
           <div className="aisle" key={aisle}>
-            <div className="aisle-head"><span className="ae">{emoji}</span><h4>{aisle}</h4><span className="ac">{list.length}</span></div>
+            <div className="aisle-head"><h4>{aisle}</h4><span className="ac">{list.length}</span></div>
             <ul>
               {list.map((o) => (
                 <li key={o.key} className={'shop-item' + (checked[o.key] ? ' checked' : '')} onClick={() => toggleChecked(o.key)}
@@ -75,7 +74,7 @@ function Head({ onCopy, onToggleAll }) {
       </div>
       {onCopy && (
         <div className="planner-tools">
-          <button className="btn btn-line" onClick={onCopy}>📋 Copy list</button>
+          <button className="btn btn-line" onClick={onCopy}>Copy list</button>
           <button className="btn btn-line" onClick={onToggleAll}>Toggle all</button>
         </div>
       )}

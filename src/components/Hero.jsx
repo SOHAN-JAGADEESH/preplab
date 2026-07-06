@@ -17,7 +17,7 @@ export default function Hero({ onBrowse, onSurprise }) {
     <div className="hero">
       <div className="hero-grid">
         <div className="hero-copy">
-          <div className="hero-eyebrow">The Meal Prep Cookbook V2 · by Jalalsamfit</div>
+          <div className="hero-eyebrow">High-protein meal prep engine</div>
           <h1 className="hero-title">Eat like<br />you mean it.</h1>
           <p className="hero-sub">
             <strong>{RECIPES.length}</strong> restaurant-grade, high-protein meal preps —
@@ -26,7 +26,7 @@ export default function Hero({ onBrowse, onSurprise }) {
           </p>
           <div className="hero-cta">
             <button className="btn btn-ember" onClick={onBrowse}>Browse the library →</button>
-            <button className="btn btn-line" onClick={onSurprise}>🎲 Surprise me</button>
+            <button className="btn btn-line" onClick={onSurprise}>Surprise me</button>
           </div>
         </div>
         <div className="hero-stats">

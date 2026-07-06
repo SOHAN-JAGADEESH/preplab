@@ -2,9 +2,6 @@ import { useMemo } from 'react'
 import { RECIPES } from '../lib/recipes'
 import { useStore } from '../store'
 
-const P_EMOJI = { Chicken: '🍗', Beef: '🥩', Steak: '🥩', Salmon: '🐟', Shrimp: '🦐', Turkey: '🦃', Other: '🍽️' }
-const D_EMOJI = { 'Mac n Cheese': '🧀', Bowls: '🥣', 'Fried Rice': '🍚', Noodles: '🍜', Pasta: '🍝', 'Loaded Fries': '🍟', Potatoes: '🥔', Rice: '🍚', Other: '✨' }
-
 const SORTS = [
   ['default', 'Featured'], ['protein', 'Most protein'], ['proteinPct', 'Highest protein %'],
   ['calLow', 'Lightest (as written)'], ['calHigh', 'Heaviest (as written)'], ['quick', 'Fewest ingredients'],
@@ -28,19 +25,18 @@ export default function FilterBar({ filters, set, resultCount }) {
     set({ ...filters, [field]: next })
   }
   const toggleFlag = (flag) => toggleSet('flags', flag)
-  const active = filters.search || filters.protein.size || filters.dish.size || filters.flags.size
+  const active = Boolean(filters.search || filters.protein.size || filters.dish.size || filters.flags.size)
 
   const flagBtns = [
-    ['highProtein', '💪 50g+ protein'], ['lowCal', '🪶 Light as written (≤500 cal)'],
-    ['spicy', '🌶️ Spicy'], ['fav', '❤️ Favourites'],
+    ['highProtein', '50g+ protein'], ['lowCal', 'Light as written (≤500 cal)'],
+    ['spicy', 'Spicy'], ['fav', 'Favourites'],
   ]
-  if (goals.set) flagBtns.push(['fitsGoals', '🎯 Fits my goals'])
+  if (goals.set) flagBtns.push(['fitsGoals', 'Fits my goals'])
 
   return (
     <div className="filterbar">
       <div className="filter-row filter-row-top">
         <div className="search-wrap">
-          <svg viewBox="0 0 24 24" className="search-ico"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.5" y2="16.5" /></svg>
           <input className="search-input" type="search" placeholder="Search 104 recipes, ingredients, flavours…"
             value={filters.search} onChange={(e) => set({ ...filters, search: e.target.value })} autoComplete="off" />
           {filters.search && <button className="search-clear" onClick={() => set({ ...filters, search: '' })}>✕</button>}
@@ -56,14 +52,14 @@ export default function FilterBar({ filters, set, resultCount }) {
       <div className="filter-row filter-row-pills">
         {counts.proteins.map(([k, n]) => (
           <button key={k} className={'pill' + (filters.protein.has(k) ? ' is-on' : '')} onClick={() => toggleSet('protein', k)}>
-            <span className="pemo">{P_EMOJI[k] || '🍽️'}</span>{k} <span className="pc">{n}</span>
+            {k} <span className="pc">{n}</span>
           </button>
         ))}
       </div>
       <div className="filter-row filter-row-pills">
         {counts.dishes.map(([k, n]) => (
           <button key={k} className={'pill' + (filters.dish.has(k) ? ' is-on' : '')} onClick={() => toggleSet('dish', k)}>
-            <span className="pemo">{D_EMOJI[k] || '✨'}</span>{k} <span className="pc">{n}</span>
+            {k} <span className="pc">{n}</span>
           </button>
         ))}
       </div>

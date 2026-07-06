@@ -18,7 +18,6 @@ export default function TopBar({ view, setView, onGoals }) {
   return (
     <header className="topbar">
       <a className="brand" href="#" onClick={(e) => { e.preventDefault(); setView('library') }}>
-        <span className="brand-flame">🔥</span>
         <span className="brand-name">PREP<span>LAB</span></span>
       </a>
       <nav className="nav">
@@ -28,7 +27,7 @@ export default function TopBar({ view, setView, onGoals }) {
       </nav>
       <div className="topbar-actions">
         <button className="ghost-btn" onClick={onGoals} title="Dietary profile & macro targets">
-          <span className="dot-live" /> Profile
+          Profile
         </button>
       </div>
     </header>

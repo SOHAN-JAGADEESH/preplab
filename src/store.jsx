@@ -31,8 +31,8 @@ export function StoreProvider({ children }) {
 
   useEffect(() => { localStorage.setItem(STORE, JSON.stringify(state)) }, [state])
 
-  const showToast = useCallback((emoji, msg) => {
-    setToast({ emoji, msg, id: Math.random() })
+  const showToast = useCallback((msg) => {
+    setToast({ msg, id: Math.random() })
     clearTimeout(toastTimer.current)
     toastTimer.current = setTimeout(() => setToast(null), 2200)
   }, [])
@@ -69,7 +69,7 @@ export function StoreProvider({ children }) {
       })
       return { ...s, plan }
     })
-    showToast('✅', `Batch spread across ${n} days`)
+    showToast(`Batch spread across ${n} days`)
   }, [showToast])
 
   const removeFromPlan = useCallback((day, idx) => {
@@ -88,12 +88,12 @@ export function StoreProvider({ children }) {
 
   const clearWeek = useCallback(() => {
     setState((s) => ({ ...s, plan: emptyPlan() }))
-    showToast('🧹', 'Week cleared')
+    showToast('Week cleared')
   }, [showToast])
 
   const autoFill = useCallback(() => {
     setState((s) => ({ ...s, plan: autoFillPlan(s.goals, s.exclude) }))
-    showToast('⚡', 'Week auto-filled to your goals')
+    showToast('Week auto-filled to your goals')
   }, [showToast])
 
   const toggleExclude = useCallback((source) => {
@@ -107,7 +107,7 @@ export function StoreProvider({ children }) {
 
   const setGoals = useCallback((g) => {
     setState((s) => ({ ...s, goals: { ...g, set: true } }))
-    showToast('🎯', 'Targets locked in')
+    showToast('Targets locked in')
   }, [showToast])
 
   const toggleChecked = useCallback((key) => {

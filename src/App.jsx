@@ -43,7 +43,7 @@ function Shell() {
       {planTarget && <AddToPlan target={planTarget} onClose={() => setPlanTarget(null)} />}
 
       <div className={'toast' + (toast ? ' show' : '')}>
-        {toast && <><span className="te">{toast.emoji}</span>{toast.msg}</>}
+        {toast && toast.msg}
       </div>
     </>
   )

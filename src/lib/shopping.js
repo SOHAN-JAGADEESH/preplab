@@ -17,15 +17,6 @@ const { categories, catalog, map } = ingredientMap
 const NOT_PURCHASED = new Set(['Water'])
 
 export const CATEGORY_ORDER = categories
-export const CATEGORY_EMOJI = {
-  'Meats': '🥩',
-  'Dairy': '🧀',
-  'Produce': '🥬',
-  'Spices & Seasonings': '🧂',
-  'Pantry': '🍯',
-  'Noodles & Pasta': '🍝',
-  'Other': '🧺',
-}
 
 // servings planned + whole batches that must be cooked, per recipe and in total
 export function planStats(plan) {
@@ -99,7 +90,7 @@ export function groupByAisle(items) {
   const groups = {}
   items.forEach((it) => { (groups[it.category] ||= []).push(it) })
   Object.values(groups).forEach((list) => list.sort((a, b) => a.rank - b.rank))
-  return CATEGORY_ORDER.filter((c) => groups[c]).map((c) => ({ aisle: c, emoji: CATEGORY_EMOJI[c], items: groups[c] }))
+  return CATEGORY_ORDER.filter((c) => groups[c]).map((c) => ({ aisle: c, items: groups[c] }))
 }
 
 export function shoppingText(items) {

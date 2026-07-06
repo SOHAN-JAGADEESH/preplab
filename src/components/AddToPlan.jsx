@@ -22,7 +22,7 @@ export default function AddToPlan({ target, onClose }) {
 
             <div className="place-meter">
               <span className="pm-count"><b>{placed}</b> / {batch} servings placed</span>
-              <button className="pm-spread" onClick={() => addBatch(r.id, batch)}>⚡ Spread batch over {batch} days</button>
+              <button className="pm-spread" onClick={() => addBatch(r.id, batch)}>Spread batch over {batch} days</button>
             </div>
 
             <div className="day-select">
@@ -58,13 +58,13 @@ export default function AddToPlan({ target, onClose }) {
         </div>
         <div className="pop-list">
           {sorted.map((r) => (
-            <div className="pop-item" key={r.id} onClick={() => { addToPlan(r.id, day); showToast('✅', `Added to ${DAY_LONG[day]}`) }}>
+            <div className="pop-item" key={r.id} onClick={() => { addToPlan(r.id, day); showToast(`Added to ${DAY_LONG[day]}`) }}>
               <img src={imgUrl(r)} alt="" />
               <div>
                 <div className="pi-name">{r.title}</div>
                 <div className="pi-mac">{r.calories} kcal · {r.protein}g P · {r.carbs}g C · {r.fat}g F</div>
               </div>
-              <span className="pi-add">＋</span>
+              <span className="pi-add">+</span>
             </div>
           ))}
         </div>

@@ -11,11 +11,11 @@ export default function RecipeCard({ recipe: r, index, onOpen, onPlan }) {
         <img loading="lazy" src={imgUrl(r)} alt={r.title} onError={(e) => (e.currentTarget.style.opacity = 0)} />
         <div className="card-badges">
           <div className="badge-row">
-            {r.spicy && <span className="tag spicy">🌶 Spicy</span>}
+            {r.spicy && <span className="tag spicy">Spicy</span>}
             <span className="tag cuisine">{r.cuisine}</span>
           </div>
           <button className={'fav-btn' + (fav ? ' is-fav' : '')} title="Save"
-            onClick={(e) => { e.stopPropagation(); toggleFav(r.id) }}>{fav ? '❤️' : '🤍'}</button>
+            onClick={(e) => { e.stopPropagation(); toggleFav(r.id) }}>{fav ? 'Saved' : 'Save'}</button>
         </div>
         <div className="card-cal"><b>{r.calories}</b><small>kcal</small></div>
         <div className="card-ring"><Ring pct={r.proteinPct} /></div>

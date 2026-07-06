@@ -35,12 +35,12 @@ export default function RecipeModal({ recipeId, onClose, onPlan }) {
       <div className="modal" role="dialog" aria-modal="true">
         <div className="modal-media">
           <div className="modal-media-top">
-            <button className={'fav-btn' + (fav ? ' is-fav' : '')} onClick={() => toggleFav(r.id)}>{fav ? '❤️' : '🤍'}</button>
+            <button className={'fav-btn' + (fav ? ' is-fav' : '')} onClick={() => toggleFav(r.id)}>{fav ? 'Saved' : 'Save'}</button>
             <button className="modal-close" onClick={onClose}>✕</button>
           </div>
           <img src={imgUrl(r)} alt={r.title} onError={(e) => (e.currentTarget.style.opacity = 0)} />
           <div className="modal-media-info">
-            <div className="modal-recipe-no">Recipe №{String(r.id).padStart(3, '0')} · {r.cuisine}{r.spicy ? ' · 🌶 Spicy' : ''}</div>
+            <div className="modal-recipe-no">Recipe №{String(r.id).padStart(3, '0')} · {r.cuisine}{r.spicy ? ' · Spicy' : ''}</div>
             <h2 className="modal-title">{r.title}</h2>
           </div>
         </div>
@@ -63,8 +63,8 @@ export default function RecipeModal({ recipeId, onClose, onPlan }) {
           </div>
 
           <div className="modal-actions">
-            <button className="btn btn-ember" onClick={() => onPlan(r.id)}>＋ Add to planner</button>
-            <button className="btn btn-line" onClick={() => toggleFav(r.id)}>{fav ? '❤️ Saved' : '🤍 Save'}</button>
+            <button className="btn btn-ember" onClick={() => onPlan(r.id)}>Add to planner</button>
+            <button className="btn btn-line" onClick={() => toggleFav(r.id)}>{fav ? 'Saved' : 'Save'}</button>
           </div>
 
           <div className="sec-head">Ingredients {scaled && <span className="sec-note lime">scaled ×{fmtNum(f)}</span>}</div>
