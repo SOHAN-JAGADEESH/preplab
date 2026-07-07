@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { RECIPES } from '../lib/recipes'
 import { useStore } from '../store'
 
@@ -9,6 +9,7 @@ const SORTS = [
 
 export default function FilterBar({ filters, set, resultCount }) {
   const { goals, exclude } = useStore()
+  const [open, setOpen] = useState(false)
   const counts = useMemo(() => {
     const avail = RECIPES.filter((r) => !exclude.includes(r.proteinSource))
     const p = {}, d = {}
@@ -24,8 +25,8 @@ export default function FilterBar({ filters, set, resultCount }) {
     next.has(val) ? next.delete(val) : next.add(val)
     set({ ...filters, [field]: next })
   }
-  const toggleFlag = (flag) => toggleSet('flags', flag)
-  const active = Boolean(filters.search || filters.protein.size || filters.dish.size || filters.flags.size)
+  const activeCount = filters.protein.size + filters.dish.size + filters.flags.size
+  const active = Boolean(filters.search) || activeCount > 0
 
   const flagBtns = [
     ['highProtein', '50g+ protein'], ['lowCal', 'Light as written (≤500 cal)'],
@@ -49,32 +50,49 @@ export default function FilterBar({ filters, set, resultCount }) {
         </div>
       </div>
 
-      <div className="filter-row filter-row-pills">
-        {counts.proteins.map(([k, n]) => (
-          <button key={k} className={'pill' + (filters.protein.has(k) ? ' is-on' : '')} onClick={() => toggleSet('protein', k)}>
-            {k} <span className="pc">{n}</span>
-          </button>
-        ))}
-      </div>
-      <div className="filter-row filter-row-pills">
-        {counts.dishes.map(([k, n]) => (
-          <button key={k} className={'pill' + (filters.dish.has(k) ? ' is-on' : '')} onClick={() => toggleSet('dish', k)}>
-            {k} <span className="pc">{n}</span>
-          </button>
-        ))}
-      </div>
-
-      <div className="filter-row">
-        <div className="toggle-group">
-          {flagBtns.map(([flag, label]) => (
-            <button key={flag} className={'toggle' + (filters.flags.has(flag) ? ' is-on' : '')} onClick={() => toggleFlag(flag)}>{label}</button>
-          ))}
-        </div>
+      <div className="filter-row filter-row-bar">
+        <button className={'filters-btn' + (open ? ' is-open' : '')} aria-expanded={open} onClick={() => setOpen((o) => !o)}>
+          Filters{activeCount > 0 && <em className="fb-count">{activeCount}</em>}
+          <span className="fb-chev">▾</span>
+        </button>
         <div className="results-meta">
           <b>{resultCount}</b> meals
           {active && <button className="reset-btn" onClick={() => set({ search: '', protein: new Set(), dish: new Set(), flags: new Set(), sort: filters.sort })}>Reset</button>}
         </div>
       </div>
+
+      {open && (
+        <div className="filter-panel">
+          <div className="fp-group">
+            <div className="fp-label">Protein</div>
+            <div className="fp-pills">
+              {counts.proteins.map(([k, n]) => (
+                <button key={k} className={'pill' + (filters.protein.has(k) ? ' is-on' : '')} onClick={() => toggleSet('protein', k)}>
+                  {k} <span className="pc">{n}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="fp-group">
+            <div className="fp-label">Dish</div>
+            <div className="fp-pills">
+              {counts.dishes.map(([k, n]) => (
+                <button key={k} className={'pill' + (filters.dish.has(k) ? ' is-on' : '')} onClick={() => toggleSet('dish', k)}>
+                  {k} <span className="pc">{n}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="fp-group">
+            <div className="fp-label">Quick</div>
+            <div className="fp-pills">
+              {flagBtns.map(([flag, label]) => (
+                <button key={flag} className={'toggle' + (filters.flags.has(flag) ? ' is-on' : '')} onClick={() => toggleSet('flags', flag)}>{label}</button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
