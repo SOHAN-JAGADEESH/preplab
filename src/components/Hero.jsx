@@ -20,7 +20,7 @@ export default function Hero({ onBrowse, onSurprise }) {
           <div className="hero-eyebrow">High-protein meal prep engine</div>
           <h1 className="hero-title">Eat like<br />you mean it.</h1>
           <p className="hero-sub">
-            <strong>{RECIPES.length}</strong> restaurant-grade, high-protein meal preps —
+            <strong>{RECIPES.length}</strong> restaurant-grade, high-protein meal preps,
             engineered with full macros, a smart weekly planner, and a shopping list that
             builds itself. No bland chicken &amp; rice. Ever.
           </p>

@@ -1,9 +1,17 @@
+import { useEffect } from 'react'
 import { byId, imgUrl, RECIPES, DAYS, DAY_LONG } from '../lib/recipes'
 import { useStore } from '../store'
 
 // mode A: { recipeId } -> place a batch's servings across days. mode B: { day } -> pick a recipe.
 export default function AddToPlan({ target, onClose }) {
   const { plan, addToPlan, addBatch, exclude, showToast } = useStore()
+
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === 'Escape') onClose() }
+    document.addEventListener('keydown', onKey)
+    document.body.style.overflow = 'hidden'
+    return () => { document.removeEventListener('keydown', onKey); document.body.style.overflow = '' }
+  }, [onClose])
 
   if (target.recipeId != null) {
     const r = byId[target.recipeId]
@@ -17,8 +25,9 @@ export default function AddToPlan({ target, onClose }) {
         <div className="pop-scrim" onClick={onClose} />
         <div className="pop">
           <div className="pop-head">
+            <button className="pop-close" onClick={onClose} aria-label="Close">✕</button>
             <h4>Place {r.title}</h4>
-            <p>This batch makes <b>{batch} servings</b> ({r.calories} kcal · {r.protein}g protein each). Tap days to spread them out — or tap one day a few times to eat it there.</p>
+            <p>This batch makes <b>{batch} servings</b> ({r.calories} kcal · {r.protein}g protein each). Tap days to spread them out, or tap one day a few times to eat it there.</p>
 
             <div className="place-meter">
               <span className="pm-count"><b>{placed}</b> / {batch} servings placed</span>
@@ -45,7 +54,7 @@ export default function AddToPlan({ target, onClose }) {
     )
   }
 
-  // mode B — choose a recipe for a given day
+  // mode B: choose a recipe for a given day
   const day = target.day
   const sorted = RECIPES.filter((r) => !exclude.includes(r.proteinSource)).sort((a, b) => b.protein - a.protein)
   return (
@@ -53,8 +62,9 @@ export default function AddToPlan({ target, onClose }) {
       <div className="pop-scrim" onClick={onClose} />
       <div className="pop">
         <div className="pop-head">
+          <button className="pop-close" onClick={onClose} aria-label="Close">✕</button>
           <h4>Add a meal · {DAY_LONG[day]}</h4>
-          <p>Pick any recipe to drop into this day (1 serving — adjust on the chip)</p>
+          <p>Pick any recipe to drop into this day (1 serving · adjust on the chip)</p>
         </div>
         <div className="pop-list">
           {sorted.map((r) => (

@@ -39,7 +39,7 @@ export function buildShopping(plan) {
   Object.entries(servingsByRecipe).forEach(([id, s]) => {
     const r = byId[id]
     if (!r) return
-    // whole batches only — scaled so every serving is genuinely 900 kcal
+    // whole batches only: scaled so every serving is genuinely 900 kcal
     const f = Math.ceil(s / r.servings) * (r.batchScale || 1)
     r.ingredientGroups.forEach((g) => g.items.forEach((raw) => {
       const entries = map[raw]
@@ -76,7 +76,7 @@ export function qtyDisplay(item) {
   }
   if (fam.spoon) parts.push(fam.spoon >= 3 ? `${fmtNum(roundQty(fam.spoon / 3, 'tbsp'))} tbsp` : `${fmtNum(roundQty(fam.spoon, 'tsp'))} tsp`)
   if (fam.cup) parts.push(`${fmtNum(roundQty(fam.cup, 'cup'))} cup`)
-  // discrete things you buy whole — always round up
+  // discrete things you buy whole: always round up
   if (fam.clove) parts.push(`${Math.ceil(fam.clove)} clove`)
   if (fam.slice) parts.push(`${Math.ceil(fam.slice)} slice`)
   if (fam.can) parts.push(`${Math.ceil(fam.can)} can`)
@@ -94,10 +94,10 @@ export function groupByAisle(items) {
 }
 
 export function shoppingText(items) {
-  const lines = ['PREP LAB — Shopping List', '']
+  const lines = ['PREP LAB · Shopping List', '']
   groupByAisle(items).forEach(({ aisle, items: list }) => {
     lines.push(aisle.toUpperCase())
-    list.forEach((o) => { const q = qtyDisplay(o); lines.push(`  [ ] ${o.name}${q ? ' — ' + q : ''}`) })
+    list.forEach((o) => { const q = qtyDisplay(o); lines.push(`  [ ] ${o.name}${q ? ' · ' + q : ''}`) })
     lines.push('')
   })
   return lines.join('\n')

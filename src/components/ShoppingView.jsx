@@ -70,7 +70,7 @@ function Head({ onCopy, onToggleAll }) {
       <div>
         <div className="view-eyebrow">03 · Auto Grocery</div>
         <h2 className="view-title">The list builds itself.</h2>
-        <p className="view-sub">Every ingredient from your planned week — merged into the cookbook's Master Grocery List, ranked by frequency.</p>
+        <p className="view-sub">Every ingredient from your planned week, merged into the cookbook's Master Grocery List and ranked by frequency.</p>
       </div>
       {onCopy && (
         <div className="planner-tools">

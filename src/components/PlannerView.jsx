@@ -14,7 +14,7 @@ export default function PlannerView({ onOpen, onAddDay, onGoShopping }) {
         <div>
           <div className="view-eyebrow">02 · Weekly Engine</div>
           <h2 className="view-title">Your week, macro-balanced.</h2>
-          <p className="view-sub">Each slot is <b>one 900 kcal serving</b> you eat that day — most batches yield 2–3 of these, so use the <b>＋ / −</b> on a meal to log how many servings you'll eat. Your shopping list rounds up to whole batches.</p>
+          <p className="view-sub">Each slot is <b>one 900 kcal serving</b> you eat that day. Most batches yield 2–3 of these, so use the <b>＋ / −</b> on a meal to log how many servings you'll eat. Your shopping list rounds up to whole batches.</p>
         </div>
         <div className="planner-tools">
           <button className="btn btn-line" onClick={autoFill}>Auto-fill to my goals</button>

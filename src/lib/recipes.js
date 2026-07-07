@@ -84,7 +84,7 @@ export const RECIPES = raw.map((r) => {
 
 export const byId = Object.fromEntries(RECIPES.map((r) => [r.id, r]))
 
-// image url helper — images live in /public/recipes, served at base + recipes/
+// image url helper: images live in /public/recipes, served at base + recipes/
 export const imgUrl = (r) => `${import.meta.env.BASE_URL}recipes/${r.image}`
 
 export const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']

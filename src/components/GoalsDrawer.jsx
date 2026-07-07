@@ -20,7 +20,7 @@ function DietProfile() {
 
   return (
     <div className="diet-section">
-      <div className="field"><label>Dietary profile — tap a protein to hide it</label>
+      <div className="field"><label>Dietary profile · tap a protein to hide it</label>
         <div className="diet-chips">
           {sources.map(([k, n]) => {
             const off = exclude.includes(k)
@@ -70,6 +70,7 @@ export default function GoalsDrawer({ onClose }) {
     <div className="drawer-root">
       <div className="drawer-scrim" onClick={onClose} />
       <aside className="drawer" role="dialog" aria-modal="true">
+        <button className="drawer-close" onClick={onClose} aria-label="Close profile">✕</button>
         <h3>Your profile</h3>
         <p className="drawer-sub">Hide proteins you don’t eat, then dial in your daily macro targets.</p>
 
